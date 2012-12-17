@@ -1,0 +1,81 @@
+body{
+	background :url(../img/landscape-bg-sub.jpg)  no-repeat center top  ;
+	width:100%;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	font: 14px Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+#menu {
+	width:490px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	position:relatif;
+	height:600px;
+	background:url(../img/backbanniere2.png) no-repeat  ;
+
+	}
+h1{
+	font-size:15px;
+	text-align:center;
+	margin-left:35px;
+}
+
+.fondtextb{
+	width:120px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	position:relatif;
+	margin-top:-400px;
+	
+
+}
+
+.form input{
+	
+	margin-top:10px;
+	
+}
+.form button{
+	width:130px;
+	height:130px;
+	margin-left:15px;
+	margin-top:10px;
+	font-size:20px;
+	padding:-15px;
+	border: 0px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;
+	color:white;
+	background:url(../img/bouclierh.png) no-repeat  ;
+	
+}
+.form  button:hover{
+	width:130px;
+	height:130px;
+	margin-left:15px;
+	margin-top:10px;
+	padding:-15px;
+	font-size:20px;
+	color:black;
+	
+	background:url(../img/bouclier.png) no-repeat  ;
+	
+}
+.down{
+	background:url(../img/down.pn) repeat-x center top ;
+	width:100%;
+	position: relative;
+	margin-right: auto;
+	margin-top:px;
+	margin-left: auto;
+	
+}
+.fields{width:150px;}
+.title{
+	text-align:center;
+	width:150px;
+	margin-left:5px;
+	}

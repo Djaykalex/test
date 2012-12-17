@@ -1,0 +1,1952 @@
+
+/************************************************************************
+
+						le body
+***************************************************************************/
+body{
+	background:url(../img/new_background12.jpg)  no-repeat center top ;
+	background-color:#ebe9e8;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-50px;
+	font: 14px Georgia;
+	color:#333;
+}
+.header_logo_fg{
+	position:absolute;
+	margin-top:50px;
+	margin-left:620px;
+}
+.header_logo_fg a:hover{
+	position:absolute;
+}
+.Mascotte_bonjour{
+	position:absolute;
+	margin-top:-1500px;
+	margin-left:600px;
+}
+.fond_text_marron{
+	position:absolute;
+	z-index:-100;
+}
+.backtestcss{
+	background:none repeat scroll 0 0 rgba(100, 100, 100, 0.3);
+	box-shadow:3px 3px 15px black;
+	border-radius: 20px 20px 20px 20px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+/** pour la page d'accueil uniquement */
+.background_blanc_home{
+	background:none repeat scroll 0 0 white;
+	border-radius: 20px 20px 20px 20px;
+	margin-top:10px;
+	margin-bottom:-40px;
+}
+.background_blanc{
+	background:none repeat scroll 0 0 white;
+	border-radius: 20px 20px 20px 20px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.margebottom{
+	margin-bottom:20px;
+}
+/*****************************************************************************
+					Zone focus page d'accueil
+*****************************************************************************/
+/** Image focus **/
+.jeux_tournois_focus{
+	margin-bottom:100px;
+	margin-left:20px;
+	float:left;
+}
+.jeux_tournois_focus_second_ligne{
+	margin-top:40px;
+	margin-bottom:100px;
+	margin-left:50px;
+	float:left;
+}
+.jeux_tournois_focus_second_ligne img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+}
+.jeux_tournois_focus :hover{
+	margin-left:50px;
+	float:left;
+}
+.jeux_tournois_focus img:hover{
+	display:block;
+	box-shadow:3px 3px 15px #ea1515;
+}
+.jeux_tournois_focus_gauche img:hover{
+	display:block;
+	box-shadow:3px 3px 15px #ea1515;
+}
+.jeux_tournois_focus img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+}
+/** Image focus gauche **/
+.jeux_tournois_focus_gauche{
+	margin-bottom:100px;
+	margin-left:0px;
+	float:left;
+}
+.jeux_tournois_focus_gauche img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+}
+.jeux_tournois_focus_gauche :hover{
+	margin-left:50px;
+	float:left;
+}
+
+.jeux_tournois_img{
+	margin-bottom:80px;
+	margin-left:50px;
+	float:left;
+}
+.focus_img_text{
+	/** border: 3px solid #000; */
+}
+/*********************************
+		focus 1er colonne
+**********************************/
+.focus{
+	position:absolute;
+	margin-top:130px;
+	margin-left:105px;
+	width:179px;
+	height:50px;
+	font-size:12px;
+	text-align: justify;
+}
+.focus p{
+	margin-top:20px;
+	width:230px;
+	margin-left:-50px;
+}
+.focus_titre1{
+	position:absolute;
+	margin-top:120px;
+	margin-left:55px;
+	font:bold;
+	font-size:20px;
+	color:#ea1515;
+	text-align: justify;
+}
+/** Bouton focus voir plus */
+.bouton_voir_plus{
+	position:absolute;
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:90px;
+	margin-left:55px;
+	margin-top:240px;
+	box-shadow:3px 3px 15px #555;
+}
+
+.bouton_voir_plus a{
+	position:absolute;
+	margin-top:6px;
+	margin-left:16px;
+	color:white;
+	font-size:14px;
+}
+.bouton_voir_plus a:hover{
+	display:block;
+	width:180px;
+	
+}
+/*********************************
+		focus 2eme colonne
+**********************************/
+.focus2 p{
+	margin-top:50px;
+	width:230px;
+	margin-left:-25px;
+}
+.focus2{
+	position:absolute;
+	margin-top:100px;
+	margin-left:385px;
+	width:179px;
+	height:50px;
+	font-size:12px;
+	text-align: justify;
+}
+.focus_titre2{
+	position:absolute;
+	margin-top:120px;
+	margin-left:360px;
+	font:bold;
+	font-size:20px;
+	color:#ea1515;
+	text-align: justify;
+}
+/** Bouton focus voir plus2 */
+.bouton_voir_plus2{
+	position:absolute;
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:90px;
+	margin-left:360px;
+	margin-top:240px;
+	box-shadow:3px 3px 15px #555;
+}
+.bouton_voir_plus2 a{
+	position:absolute;
+	margin-top:6px;
+	margin-left:16px;
+	color:white;
+	font-size:14px;
+}
+.bouton_voir_plus2 a:hover{
+	display:block;
+	height:50px;
+	width:180px;
+}
+/*********************************
+		focus 3eme colonne
+**********************************/
+.focus3 p{
+	margin-top:50px;
+	width:230px;
+}
+.focus_titre3{
+	position:absolute;
+	margin-top:120px;
+	margin-left:665px;
+	font:bold;
+	font-size:20px;
+	color:#ea1515;
+	text-align: justify;
+}
+.focus3{
+	position:absolute;
+	margin-top:100px;
+	margin-left:665px;
+	width:179px;
+	height:50px;
+	font-size:12px;
+	text-align: justify;
+}
+.bouton_voir_plus p{
+	color:white;
+}
+/** Bouton focus voir plus3 */
+.bouton_voir_plus3{
+	position:absolute;
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:90px;
+	margin-left:665px;
+	margin-top:240px;
+	box-shadow:3px 3px 15px #555;
+}
+.bouton_voir_plus3 a{
+	position:absolute;
+	margin-top:6px;
+	margin-left:16px;
+	color:white;
+	font-size:14px;
+}
+.bouton_voir_plus3 a:hover{
+	display:block;
+	height:50px;
+	width:180px;
+}
+.slogan{
+	font: 20px Georgia, arial ;
+	font-weight:bold;
+	color:black;
+	font-style:italic;
+	text-align: center;
+	margin-bottom:30px;
+}
+.slogan span{
+	font: 20px Georgia, arial ;
+	font-weight:bold;
+	color:#ea1515;
+	font-style:italic;
+	text-align: center;
+	margin-bottom:30px;
+}
+.slogan a {
+	font: 20px Georgia, arial ;
+	font-weight:bold;
+	color:#ea1515;
+	font-style:italic;
+	text-align: center;
+	margin-bottom:30px;
+}
+.fondtext_slogan{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	color:#666666;
+	font-size:20px;
+	padding-top:40px;
+}
+.fondtext_slogan2{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	color:#666666;
+	font-size:20px;
+	margin-top:50px;
+	padding-top:40px;
+}
+.focus2ligne{
+	margin-top:30px;
+}
+.bouton_voir_tout_focus{
+	/**background: url(../img/superbutton.png) repeat-x center -1140px transparent;*/
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:150px;
+	margin-left:750px;
+	margin-top:20px;
+	margin-bottom:20px;
+	box-shadow:3px 3px 15px #555;
+}
+.bouton_voir_tout_focus a{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+	color:white;
+	
+}
+/************************************************************************
+
+						Table 
+***************************************************************************/
+.editer_membres_guildes{
+	height:600px;
+}
+.content_edite{
+	margin-left:200px;
+}
+.table td.suppr{
+	text-align:right;
+}
+.th_edite{
+	font-size:23px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	padding-top:25px;
+}
+.td_edite{
+	
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	padding-top:25px;
+}
+/****************************************************************************
+
+						lespace banniere
+				
+*****************************************************************************/
+#header{
+	margin-top:100px;
+	height:150px;
+}
+.slidertop{
+	height:280px;
+} 
+/*****************************************************************************
+
+								le menu
+								
+******************************************************************************/
+
+#menu ul{color:000000;}
+.clear{clear:both;}
+.bonj{
+	position:absolute;
+	width:350px;
+	height:100px;
+	margin-left:700px;
+	margin-top:-50px;
+}
+.bonjour{
+	padding-top:20px;
+	height:90px;
+	width:300px;
+}
+.yop{
+	padding-left:50px;
+	margin-bottom:-20px;
+	color:white;
+	text-align:left;
+	height:90px;
+	width:300px;
+	font: 20px painted;
+}
+/*******************************************************************************
+							Infos pratiques
+*******************************************************************************/
+.plan_du_site_img{
+	margin-left:45px;
+}
+.plan_du_site_img img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+	margin-bottom:10px;
+}
+.plan_du_site_slide_img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+}
+/********************************************************************************
+
+							le contenu
+							
+**********************************************************************************/
+
+.fondtext{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	color:#666666;
+	font-size:20px;
+	padding-top:70px;
+}
+/**************************************************************************
+
+					News Images pagination 
+**************************************************************************/
+.imgnews{
+	margin-bottom:-279px;
+	margin-left:40px;
+}
+#intro {
+	width: 580px;
+	margin: 0 auto;
+}
+.titre_carrousel{
+	font-size: 25px;
+	text-align:center;
+	color:#ea1515;
+	font-weight: bold;
+}
+.titre_carrousel a{
+	font-size: 25px;
+	color:#ea1515;
+	font-weight: bold;
+}
+.caroussel{
+	margin-bottom:100px;
+	margin-left:20px;
+}
+.wrappers {
+	background-color: white;
+	width: 480px;
+	margin: 40px auto;
+	padding: 50px;
+	box-shadow: 0 0 5px #999;
+}
+.list_carousel {
+	margin: 0 0 30px 60px;
+	width: 860px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	width: 245px;
+	height: 250px;
+	padding: 0;
+	margin-top:6px;
+	margin-left:10px;
+	display: block;
+	z-index:1000;
+	float: left;
+}
+.list_carousel li p {
+	margin-top:5px;
+	display:block;
+	width:240px;
+	height:240px;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	background:url(../img/fleche_gauche.jpg) no-repeat;
+	height:102px;
+	width:150px;
+	margin-top:-1px;
+	float: left;
+	margin-left: 10px;
+}
+.next {
+	background:url(../img/fleche_droite.jpg) no-repeat;
+	height:102px;
+	width:150px;
+	margin-top:-1px;
+	float: right;
+	margin-right:0px;
+}
+.pager {
+	float: left;
+	width: 430px;
+	margin-top:15px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}
+
+
+/**************************************************************************
+							ARTICLES 
+**************************************************************************/
+.fondtext_front{
+	/**box-shadow:3px 3px 15px #555;*/
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	/*border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;*/
+	color:#666666;
+	font-size:20px;
+	padding-top:70px;
+	margin-bottom:20px;
+	width:830px;
+}
+.container_16 .fondtext_front_news{
+	position:relative;
+	color:#666666;
+	font-size:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	width:900px;
+}
+.titre_front_news {
+	font: 25px;
+	float:left;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+.ico_red{
+	position:absolute;
+	margin-top:-30px;
+	margin-left:50px;
+}
+.titre_front{
+	font: 25px;
+	margin-top:-60px;
+	text-align:left;
+	margin-left:30px;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:40px;
+	position:absolute;
+}
+.titre_front:hover{
+	font: 26px;
+	margin-top:-60px;
+	text-align:left;
+	margin-left:30px;
+	color:#be352c;
+	font-weight: bold;
+	margin-bottom:40px;
+	position:absolute;
+}
+
+.titrefond_front{
+	background:url(../img/titrefond2.png) no-repeat left top;
+}
+.text_front{
+	float:left;
+	width:900px;
+	text-align: justify;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+.fintext-front{
+	background:url(../img/wide-column-border.png) no-repeat;
+	margin-top:-10px;
+	margin-bottom:50px;
+	margin-left:180px;
+	height:2px;
+}
+.fintext-front_news{
+	background:url(../img/wide-column-border.png) center no-repeat;
+	/*margin-top:-10px;*/
+	/*margin-bottom:50px;*/
+	/*margin-left:180px;*/
+	height:2px;
+	margin-bottom: 20px;
+}
+.date_front{
+	position:absolute;
+	font-size:17px;
+	top:0;
+	right:0;
+	color:#333;
+}
+/***************************************************
+			icones news, pages homes et le tournoi
+***************************************************/
+.icone_test{
+	position:absolute;
+	margin-top:-50px;
+	margin-left:40px;
+}
+.icone_test_news{
+	margin-top:25px;
+	margin-left:-5px;
+	width:240px;
+	height:200px;
+}
+/** titre en dessous de l'image news du carrousel*/
+.focus_titre{
+	font-size:16px;
+	position:absolute;
+	margin-top:178px;
+	display:block;
+	width:240px;
+	height:50px;
+	z-index:100;
+	color:#ea1515;
+}
+
+.icone_petit_news{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+/***************************************************
+		Fin icones news, pages homes et le tournoi
+***************************************************/
+.ico-ajustement{
+	margin-top:20px;
+}
+.ico-ajustement  a:hover{
+	display:block;
+	width:100px;
+	height:100px;
+}
+.ico_ajustement_90_71{
+	margin-left:-15px;
+}
+/**************************************************************************
+
+					Fin Articles homes
+**************************************************************************/
+.fondtext1{
+	background-color:;
+	/*box-shadow:3px 3px 15px #555;*/
+	margin-bottom:30px;
+	overflow:hidden;
+	margin-left:10px;
+	margin-right:auto;
+	/*border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;*/
+	color:#666666;
+	font-size:20px;
+	text-align:center;
+
+}
+.fondtextguilde{
+	margin-bottom:40px;
+	margin:5px 20px -5px;
+	color:#666666;
+	font-size:20px;
+	float:left;
+}
+.image_article{
+	margin-left:100px;
+}
+.ico_commentaire{
+	position:absolute;
+	margin-top:-3px;
+}
+.ajouter_commentaire{
+	margin-left:30px;
+}
+.titreguildelist{
+	font-size:22px;
+	margin-left:10px;
+	margin-top:50px;
+	text-align:center;
+	color:#be352c;
+	
+}
+.titreguildelist  a:hover{
+	color:purple;
+
+}
+.titreguilde{
+	font-size:22px;
+	margin-top:50px;
+	text-align:center;
+	color:#be352c;
+	margin-bottom:20px;
+}
+.fondtext1 a{
+	color:red;
+
+}
+.fintext{
+	background:url(../img/wide-column-border.png) no-repeat;
+	margin-top:-10px;
+	margin-bottom:50px;
+	margin-left:180px;
+	height:2px;
+}
+.fintextslogan{
+	background:url(../img/wide-column-border.png) no-repeat;
+	margin-top:10px;
+	margin-bottom:30px;
+	margin-left:180px;
+	height:2px;
+}
+/**
+fintext2 correspond aux details articles, commentaires, images ... en grid 16
+*/
+.fintext2{
+	background:url(../img/wide-column-border.png) no-repeat;
+	margin-top:-10px;
+	margin-bottom:50px;
+	margin-left:170px;
+	height:2px;
+}
+.titre{
+	font: 25px georgia, arial;
+	margin-top:50px;
+	text-align:center;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+.titre_gestion_compte{
+	font: 25px georgia, arial;
+	text-align:center;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+.titre_details_articles{
+	font: 25px georgia, arial;
+	text-align:center;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+.titre a{
+	font: 30px painted;
+	margin-top:0px;
+	text-align:center;
+	color:#ea1515;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+.titre_guilde{
+	font-size:25px;
+	font-weight: bold;
+	margin-top:0px;
+	text-align:center;
+	color:#ea1515;
+	margin-bottom:20px;
+}
+.titrefond{
+	background:url(../img/titrefond2.png) no-repeat center top;
+	padding-top:40px;
+	margin-left:10px;
+}
+.titrefond3{
+	background:url(../img/titrefond4.png) no-repeat center top;
+	height:70px;
+	padding-top:40px;
+	
+}
+/************************************************************************
+							
+							Pagination
+
+*************************************************************************/
+
+.pagination_articles{
+	text-align:center;
+	height: 24px;
+	line-height: 24px;
+	width: auto;
+	padding: 0px 7px;
+	margin: 0 3px 6px 0;
+	margin-left:60px;
+	margin-right:10px;
+	display: inline;
+	float: left;
+	font-size: 13px;
+	text-decoration: none;
+	background: url(../img/superbutton.png) repeat-x center -250px transparent;
+	color: #7a7a7a;
+	text-shadow: 1px 1px #ffffff;
+	border: 1px solid #cecece;
+	box-shadow: inset 0px 1px 2px #ffffff;
+	border-radius: 4px;
+
+}
+.pagination_articles a:hover{background-position: center -211px; }
+.pagination_page a:hover { background-position: center -211px; }
+.numero_page{
+	color:white;
+	font: 30px painted;
+	padding-left:13px;
+	padding-top:10px;
+	margin-right:-20px;
+	float: left;
+	width:70px;
+	height:75px;
+	background: url(../img/pagination.png) no-repeat;
+}
+.numero_page_noir{
+	color:white;
+	font: 30px painted;
+	padding-left:13px;
+	padding-top:10px;
+	margin-right:-20px;
+	float: left;
+	width:70px;
+	height:75px;
+	background: url(../img/pagination2.png) no-repeat;
+}
+.numero_page_com{
+	color:white;
+	font: 30px painted;
+	padding-left:13px;
+	padding-top:10px;
+	margin-right:-20px;
+	float: left;
+	width:70px;
+	height:75px;
+	background: url(../img/pagination.png) no-repeat;
+}
+.numero_page_noir_com{
+	color:white;
+	font: 30px painted;
+	padding-left:13px;
+	padding-top:10px;
+	margin-right:-20px;
+	margin-left:110px;
+	float: left;
+	width:70px;
+	height:75px;
+	background: url(../img/pagination2.png) no-repeat;
+}
+/*************************************************************************
+						Le tournoi
+
+****************************************************************************/
+.tournoi_text{
+	color:black;
+	margin-left:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font: 15px Georgia;
+	text-align: justify;
+	width:850px;
+}
+.tournoi_soustitre{
+	padding-top:55px;
+	margin-bottom:10px;
+	color:white;
+	font: 30px painted;
+	font-style:italic;
+}
+.tournois_paragraphe{
+	width:960px;
+}
+
+
+/************************************************************************
+
+				Parties rapides , guildes vs guildes , demos
+
+*************************************************************************/
+/**
+le soustitre est utilisé dans les parties rapides, guildes vs guildes ... 
+*/
+.soustitre {
+	height:150px;
+	margin-bottom:-80px;
+	margin-left:50px;
+	color:black;
+	font:25px;
+	font-style:italic;
+
+}
+.soustitre span{
+	margin-left:20px;
+	padding-top:-10px;
+
+}
+/** affiche les images des jeux du tournois F-G*/
+
+.jeux_tournois{
+	margin-bottom:40px;
+	margin-left:50px;
+	float:left;
+}
+.jeux_tournois img{
+	box-shadow:3px 3px 15px #555;
+	border: 3px solid #000;
+}
+.jeux_tournois a:hover{
+	height:79px;
+	width:176px;
+	display:block;
+	box-shadow:3px 3px 15px #ea1515;
+}
+.jeux_tournois img:hover{
+	display:block;
+	box-shadow:3px 3px 15px #ea1515;
+}
+/** nom du jeu affiché sous l'image*/
+.jeux_tournois_title a{
+	font-size:15px;
+	color:#ea1515;
+	margin-top:100px;
+	margin-left:-180px;
+	float:left;
+}
+.jeux_tournois_title a:hover{
+	font-size:15px;
+	color:#000;
+	margin-top:100px;
+	margin-left:-180px;
+	float:left;
+}
+/** Icones Age, time et players*/
+.age_icone{
+	position:absolute;
+	margin-left:100px;
+	
+}
+.time_icone{
+	position:absolute;
+	margin-left:220px;
+}
+.players_icone{
+	position:absolute;
+	margin-left:350px;
+}
+.boite{
+	z-index:1000;
+	position:absolute;
+	margin-top:70px;
+	margin-left:-895px;
+	
+	border: 3px solid #000;
+}
+.age{
+	position:absolute;
+	width:25px;
+	margin-left:300px;
+	margin-top:-245px;
+	text-align: justify;
+	margin-bottom:20px;
+	color:white;
+	font: 20px Georgia, Arial, Helvetica, sans-serif;
+}
+.time{
+	position:absolute;
+	width:25px;
+	margin-left:420px;
+	margin-top:-245px;
+	text-align: justify;
+	margin-bottom:20px;
+	color:white;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+.players{
+	position:absolute;
+	width:150px;
+	margin-left:530px;
+	margin-top:-245px;
+	text-align: justify;
+	margin-bottom:20px;
+	color:white;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+.description_jeux_tournois{
+	height:75px;
+	margin-top:-420px;
+	margin-left:50px;
+	margin-bottom:130px;
+	text-align: justify;
+	width:450px;
+	color:white;
+	font: 14px Georgia, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	z-index:10;
+}
+.tfg_les_points{
+	height:270px;
+
+}
+.tfg_points_content{
+	z-index:-100;
+	
+}
+.tfg_points_flag{
+	position:absolute;
+	margin-top:40px;
+	margin-left:-260px;
+}
+.tfg_text{
+	position:absolute;
+	margin-top:-180px;
+	margin-left:240px;
+	color:white;
+	width:400px;
+	text-align: justify;
+}
+.tfg_content{
+	margin-top:-90px;
+	margin-bottom:-50px;
+	height:140px;
+	color:white;
+	font: 14px Georgia, Arial, Helvetica, sans-serif;
+	width:850px;
+	text-align: justify;
+	margin-left:50px;
+}
+.tfg_slideimage{
+	margin-top:50px;
+	margin-left:100px;
+}
+.tfg_liens{
+	position:absolute;
+	margin-top:140px;
+	margin-left:250px;
+	color:white;
+}
+.tfg_end{
+	margin-bottom:200px;
+}
+.tfg_img1{
+	position:absolute;
+	margin-top:-125px;
+	margin-left:50px;
+}
+.tfg_img2{
+	position:absolute;
+	margin-top:-435px;
+	margin-left:650px;
+}
+.tfg_img3{
+	position:absolute;
+	margin-top:-120px;
+	margin-left:700px;
+	border: 3px solid #000;
+}
+.tfg_img4{
+	position:absolute;
+	margin-top:-80px;
+	margin-left:500px;
+}
+.tfg_liens_details a{
+	overflow:hidden;
+}
+.tfg_liens_details a:hover{
+	display:block;
+	width:850px;
+	height:250px;
+}
+.liens{
+	font-style:italic;
+	color:#773;
+}
+.liens a:hover{
+	font-style:italic;
+	color:#333;
+}
+.text3{
+	margin-left:50px;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:90px;
+	font: 17px Georgia;
+	text-align: justify;
+}
+.gras{
+	
+	color:#96211b;
+}
+.italic{
+	font-style:italic
+}
+
+
+
+
+/****************************************************************************
+				Fin Parties rapides , guildes vs guildes , demos
+*****************************************************************************/
+
+
+
+.text{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	text-align: justify;
+	margin-bottom:20px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+
+.text2{
+	text-align:left;
+	margin-top:50px;
+	margin-bottom:20px;
+	text-align: justify;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+.text_center{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:20px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+ .img{
+	border: 1px solid #000;
+	border-radius: 0 15px 0 15px;
+	box-shadow:3px 3px 20px #555;
+	margin-bottom:20px;
+	margin-left:70px;
+	margin-right:70px;
+}
+ .img2{
+	border: 1px solid #000;
+	border-radius: 0 15px 0 15px;
+	box-shadow:3px 3px 20px #555;
+	margin-bottom:20px;
+	margin-left:150px;
+	margin-right:70px;
+}
+ .img3{
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-left:300px;
+	margin-right:70px;
+}
+ .img4{
+	margin-left:260px;
+	
+}
+ .img5{
+	margin-left:260px;
+	padding-bottom:-400px;
+	
+}
+.img6{
+	margin-left:100px;
+	padding-bottom:-400px;
+	
+}
+.img7{
+	margin-left:60px;
+	margin-right:auto;
+	
+	
+}
+.imgdroite{
+	
+	margin-left:450px;
+	margin-right:70px;
+}
+.imggauche{
+	margin-top:-250px;
+	position:absolute;
+	margin-left:50px;
+}
+.imggauchefooter{
+	margin-left:74px;
+	
+
+}
+.imgcentrefooter{
+	margin-left:15px;
+	
+
+}
+.plusdinfos{
+	color:#be352c;
+
+}
+
+#logoguilde{
+	margin-bottom:170px;
+	position:relative;
+	margin-left:70px;
+	padding-top:-100px;
+
+}
+#logoguilde2{
+	margin-bottom:110px;
+	position:relative;
+	margin-left:10px;
+	padding-top:-100px;
+	
+
+}
+#logoguilde3{
+	margin-bottom:50px;
+	padding-top:-100px;
+
+}
+#logoguilde5{
+	position:absolute;
+	margin-top:150px;
+	margin-left:-150px;
+	
+}
+#logoguilde6{
+	position:absolute;
+	margin-top:140px;
+	margin-left:95px;
+	
+}
+/******************************************************
+
+				GESTION DE LA GUILDE 
+
+********************************************************/
+#logoguilde7{
+	margin-bottom:50px;
+	margin-top:-600px;
+	padding-top:-100px;
+	position:absolute;
+
+}
+#logo_membres_guilde{
+	margin-bottom:50px;
+	margin-top:-90px;
+	padding-top:-100px;
+	position:absolute;
+
+}
+#logoguilde8{
+	position:absolute;
+	margin-top:-470px;
+	margin-left:93px;
+	
+
+}
+#logo_membres_guilde2{
+	position:absolute;
+	margin-top:50px;
+	margin-left:93px;
+	
+
+}
+.foin3{
+	position:absolute;
+	margin-left:13px;
+	margin-top:-308px;
+
+}
+.foin3_membres{
+	position:absolute;
+	margin-left:13px;
+	margin-top:203px;
+
+}
+.gestion_guilde_banniere{
+	margin-top:50px;
+}
+.testtest2{
+	margin-bottom:50px;
+	padding-bottom:50px;
+	margin-top:80px;
+}
+/******************************************************
+
+				FIN GESTION DE LA GUILDE 
+
+********************************************************/
+.foin{
+	position:absolute;
+	margin-left:-223px;
+	margin-top:290px;
+
+}
+.foin2{
+	position:relative;
+	margin-left:-230px;
+	margin-top:-160px;
+
+}
+
+
+.description{
+	margin-top:-380px;
+	width:500px;
+	height:400px;
+	margin-left:270px;
+	text-align:left;
+
+
+}
+.description2{
+	width:500px;
+	height:380px;
+	margin-left:270px;
+	text-align:left;
+
+
+}
+.description3{
+	
+	margin-left:10px;
+	text-align:left;
+	margin-top:-100px;
+
+
+}
+.description_membres{
+	
+	margin-left:370px;
+	text-align:left;
+	margin-top:80px;
+
+
+}
+.textdescription{
+	width:100px;
+}
+
+.co{
+	margin-left:8px;
+}
+.connect{
+	margin-left:30px;
+	font: 30px painted;
+}
+.fondtext1  a:hover{color:purple;}
+
+.ban{
+	background:url(../img/lance.png) no-repeat;
+	position:absolut;
+}
+.banniered{
+	padding-bottom:50px;
+	
+}
+.form{
+	margin-left:50px;
+	margin-right:auto;
+
+}
+.formrow{
+	margin-top:20px;
+	margin-bottom:20px;
+
+
+}
+
+.menus{
+	font-size:15px;
+	color:#666666;
+	margin-left:50px;
+		
+	}
+.date{
+	font-size:15px;
+	color:#333;
+}
+.date a:hover{
+	color:#333;
+
+}
+.creaguild{
+	margin-left:300px;
+	margin-top:-300px;
+	height:1000px;
+	
+}
+.creaguilde{
+	width:300px;
+	height:300px;
+	
+}
+.logo{ 
+	text-align: center;
+	margin-left:-50px;
+	margin-top:160px;
+}
+.nom{
+	margin-left:220px;
+	margin-top:-40px;
+}
+.color{
+	margin-left:-190px;
+	margin-top:50px;
+}
+.presentation{
+	margin-top:50px;
+	margin-left:-290px;
+	margin-right:10px;
+	
+}
+.dictonguilde{
+	margin-left:-180px;
+
+}
+.buttom{
+	margin-left:-180px;
+}
+
+/**************************************************************
+
+				Gestion de compte, buttoms forms ... 
+
+*****************************************************************/
+.editer{
+	position:absolute;
+	margin-top:-10px;
+	z-index: 1;
+}
+
+.editer_slot{
+	margin-top:50px;
+	margin-bottom:50px;
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:125px;
+	
+	
+}
+.editer_slot:hover{
+	margin-top:50px;
+	background: url(../img/bouton_rouge_hover.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:125px;
+	
+}
+.editer_slot_membres{
+
+	background:url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius:5px 5px 5px 5px;
+	height:30px;
+	width:230px;
+	margin-top:200px;
+	margin-bottom:50px;
+	
+}
+.editer_slot_membres:hover{
+	margin-top:200px;
+	background: url(../img/bouton_rouge_hover.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	height:30px;
+	width:230px;
+	
+}
+.form_compte{
+	margin-left:70px;
+}
+.rowstyle{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+.label{
+	color:#333;
+	font: 20px Georgia, Arial, Helvetica, sans-serif;
+}
+/** logo Fury game page modification infos compte */
+.modif_compte_logo{
+	position:absolute;
+	margin-top:-500px;
+	margin-left:480px;
+}
+
+/**************************************************************
+
+				Fin Gestion de compte, buttoms forms ... 
+
+*****************************************************************/
+
+/************************************************************
+				Image pour la creation de guilde 
+
+*************************************************************/
+.image1{
+	position:absolute;
+	margin-left:53px;
+	margin-top:-200px;
+}
+.image2{
+	position:absolute;
+	margin-left:-150px;
+	margin-top:-280px;
+}
+
+/************************************************************
+				Image pour la creation de guilde 
+
+*************************************************************/
+.buttomvalider{
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	border:0px;
+	height:30px;
+	width:85px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	color:white;
+	margin-top:30px;
+
+	
+}
+.buttomvalider:hover{
+	
+	background: url(../img/bouton_rouge_hover.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	border:0px;
+	height:30px;
+	width:85px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	color:white;
+
+}
+.validation {
+	text-align:center;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	color:white;
+	display:block;
+}
+.valid_edit{
+	display:block;
+	height:70px;
+	width:240px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	padding-top:5px;
+	color:white;
+}
+.valid_edit:hover{
+	display:block;
+	height:70px;
+	width:240px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	padding-top:5px;
+	color:white;
+}
+/*********************************************************
+					Detail de la guilde
+
+***********************************************************/
+#logoguilde10{
+	margin-bottom:50px;
+	margin-top:-480px;
+	margin-left:90px;
+	padding-top:-100px;
+	position:absolute;
+	z-index:1000;
+	
+	
+
+}
+#logoguilde9{
+	position:absolute;
+	margin-top:-600px;
+}
+.retour{
+	margin-left:70px;
+}
+
+/************************************************************
+						Commentaires
+
+*************************************************************/
+.commentaires{
+	
+	margin-top:20px;
+	margin-left:50px;
+	margin-bottom:20px;
+	text-align: justify;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	
+}
+.titrecommentaires {
+	padding-left:50px;
+}
+
+.contentcommentaires{
+	width:800px;
+	text-align: justify;
+	padding-left:50px;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	
+	
+}
+.titre_com{
+	font: 30px painted, georgia, arial,Helvetica, sans-serif;
+	color:#ea1515;
+	font-weight: bold;
+}
+
+.auteur_commentaires{
+	font: 20px painted;
+	margin-top:20px;
+	
+}
+.auteur_guildes{
+	font: 15px Georgia;
+}
+.table_commentaires{
+	
+}
+.titre_commentaire{
+	
+	
+}
+/************************************************************
+						Commentaires
+
+*************************************************************/
+/*******************************************************
+			Bouton Editer une guilde 
+
+********************************************************/
+.buttomvalider2{
+	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	border:0px;
+	height:30px;
+	width:125px;
+	margin-top:30px;
+	margin-left:-280px;
+	padding-bottom:30px;
+	padding-right:240px;
+}
+.buttomvalider2:hover{
+	background: url(../img/bouton_rouge_hover.jpg) repeat-x center transparent;
+	border-radius: 5px 5px 5px 5px;
+	border:0px;
+	height:30px;
+	width:125px;
+	padding-right:240px;
+}
+.valid_edit_guildes{
+	display:block;
+	height:70px;
+	width:340px;
+	position:relative;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	margin-left:-70px;
+	padding-top:5px;
+	color:white;
+	z-index:1000;
+
+}
+/*******************************************************
+			 FIN bouton Editer une guilde 
+
+********************************************************/
+.error {
+	border: 3px solid #990000; 
+	border-radius: 5px 5px 5px 5px;
+	background: #F5D0CD url(../img/backoffice/bg_fade_red_med.png) repeat-x top; 
+	margin-top:20px; 
+	margin-bottom:20px;
+	position:relative;
+	z-index: 1000;
+
+}
+
+.bloc{
+	margin-right:500px;
+}
+.row{
+	margin-top:10px;
+
+}
+.row_content{
+	margin-top:50px;
+
+}
+.rows{
+	margin-bottom:10px;
+	list-style: none;
+	padding: 0;
+}
+.rows div{
+	position: absolute;
+	padding: 0;
+	margin: 0 2px;
+	text-align: center;
+}
+.rows input{
+	display: block;
+	width: 144px;
+	text-decoration: none;
+	font-weight: bold;
+	text-decoration: none;
+	
+	
+}
+
+.rows input em {
+	
+	
+	width: 180px;
+	height: 45px;
+	position: absolute;
+	top: -85px;
+	left: -15px;
+	text-align: center;
+	padding: 20px 12px 10px;
+	font-style: normal;
+	z-index: 2;
+	display: none;
+		
+}
+.rowright select em{
+	margin-left:-200px;
+	margin-top:-200px;
+
+
+}
+.p{
+	text-align:;
+	
+	margin-left:50px;
+	padding-left:170px;
+	color:white;
+	margin-top:0px;
+}
+.p2{
+	margin-left:100px;
+}
+.dicton{
+	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	color:#333;
+	text-align:center;
+	margin-top:10px;
+	
+}
+/*********************************************************
+		dicton, nom de guilde,  Gestion des guildes ... 
+
+************************************************************/
+.dicton2{
+	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	color:#333;
+	margin-top:10px;
+	margin-bottom:20px;
+	text-align: justify;
+}
+.dictonedit{
+	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-top:10px;
+	width:500px;
+	margin-left:270px;
+	text-align:left;
+	
+}
+.dictonedit_membres{
+	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-top:10px;
+	width:500px;
+	margin-left:370px;
+	text-align:left;
+	
+}
+.nomguilde{
+	font: 30px painted;
+	color:#333;
+}
+.text_gestion_guildes{
+	text-align:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: justify;
+	font: 17px Georgia, Arial, Helvetica, sans-serif;
+}
+/*********************************************************
+		FIN dicton, nom de guilde,  Gestion des guildes ... 
+
+************************************************************/
+.InputRole{
+	padding-right: 500px;
+	margin-right:500px;
+}
+.typearticle{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:800px;
+	font: 20px Georgia, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	
+}
+.membres{
+	font-style:italic;
+	margin:20px;
+
+}
+.detailguildehaut{
+	margin-bottom:-200px;
+}
+.imagecompte{
+	background:url(../img/imagecompte.jpg) no-repeat;
+	position:absolute;
+	width:500px;
+	height:550px;
+	margin-left:380px;
+	z-index:1;
+}
+
+
+/***********************************************************************************
+
+							Slideimg
+							
+							
+************************************************************************************/
+
+.slideimg {
+	margin-left:40px;
+}
+.slideimg img{
+	float:left;
+	margin:10px;
+}
+/***********************************************************************************
+
+							footer
+							
+************************************************************************************/
+#footer{
+	background:url(../img/pied1.png) repeat-x center top ;
+	margin-right: auto;
+	
+	margin-left: auto;
+	height:200px;
+}
+.footers{
+	background-color:black;
+	display:block;
+	height:300px;
+	margin-top:-20px;
+
+}
+
+
+.footerd p{
+	margin-top:10px;
+}
+
+.textfoot{
+	padding-top:30px;
+}
+
+.infosBD{
+	font-size:14px;
+	text-align:left;
+	color:#666666;
+}
+form {
+	text-align:left;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	border-radius:7px;
+}
+.field{
+	border-radius:7px;
+	width:150px;
+
+}
+hr{
+	height:1px;
+	border:2px solid white;
+	box-shadow:3px 3px 20px silver;
+	width:150px;
+	position:relatif;
+	opacity:0.4;
+	background:url(../img/hr.png) no-repeat;
+	background-color:silver;
+}
+
+.submit{
+	
+	margin-top:70px;
+	
+}
+.submit1 {
+	margin-left:5px;
+	margin-top:10px;
+	border-radius:7px;
+}
+.mot{
+	font-size:14px;
+	margin-left:5px;
+}
+/****************************************************************************
+
+							Email contact
+*****************************************************************************/
+.contact_logo{
+	position:absolute;
+	margin-top:-710px;
+	margin-left:480px;
+}
+.contact_logo_assoc{
+	position:absolute;
+	margin-top:-350px;
+	margin-left:600px;
+}
+
+
+
+
+
+
+
+

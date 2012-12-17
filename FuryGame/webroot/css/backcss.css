@@ -1,0 +1,106 @@
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/iframe-shim.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+body{
+	background :url(../img/body.png) repeat-x;
+	background-color:white;
+	width:1024px;
+	margin-left:1px;
+	margin-right:auto;
+	font: 12px Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#menu {
+	width:450px;
+	margin-left:5px;
+	margin-right:50px;
+	padding-left:50px;
+	height:970px;
+	background:url(../img/backbanniere.png) no-repeat top left;
+}
+
+#menu ul {
+	padding:0; 
+	border-radius: 0 0 15px 15px;
+	color:#ffffff;
+	font-size:20px;
+	margin-top:400px;
+	margin-left:110px;
+	margin-right:50px;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+	
+#menu ul {display:inline-block;} 
+#menu li {margin:0; padding:0; list-style:none;}
+#menu li {display:inline;}
+#menu a {display:block; font: 16px Arial, Helvetica, sans-serif; color:#fff; line-height:25px; text-decoration:none;padding:0 10px; margin:5px;}
+#menu li a:hover {color:gold; background-color:black;} 
+
+.fondtextb{
+	background-color:#e6e6f3;
+	width:950px;
+	margin-top:-650px;
+	overflow:hidden;
+	margin-left:480px;
+	margin-right:auto;
+	margin-bottom:20px;
+	border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;
+	color:#666666;
+	font-size:14px;
+	text-align:center;
+	padding-top:50px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+
+.backaccueil {
+	background-color:#DCDCEF;
+	height:300px;
+	margin-top:-700px;
+	margin-left:auto;
+	border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;
+	color:#666666;
+	font-size:20px;
+	text-align:center;
+	padding-top:50px;
+}
+
+#footer{
+	background:url(../img/pied3.jpg) repeat-x center top ;
+	background-color:black;
+	position: relative;
+	margin-right: auto;
+	margin-top:-360px;
+	margin-left: auto;
+	height:520px;
+}
+.footerd {
+	padding-top:200px;
+}
+.contentl{
+	width:300px;
+}
+.table td{
+	border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;
+	text-align:center;
+}
+.table th{
+	border: 1px solid #FFFFFF;
+	border-radius: 0 15px 0 15px;
+	text-align:center;
+}
+.table td.suppr{
+	text-align:right;
+}

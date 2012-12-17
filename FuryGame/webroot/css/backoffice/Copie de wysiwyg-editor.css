@@ -1,0 +1,41 @@
+body{
+	background :url(../img/body.png);
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	font: 15px Arial, Helvetica, sans-serif;
+	color:#333;
+}
+#menu {
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relatif;
+	height:970px;
+	background:url(../img/backbanniere.png) no-repeat  ;
+
+	}
+.fondtextb{
+	width:200px;
+	position:relatif;
+	margin-top:-500px;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+	
+	
+}
+.form{
+	width:450px;
+	padding-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.form input{
+	text-align:center;
+	margin-top:20px;
+	
+	
+	
+}
