@@ -1,47 +1,52 @@
-<?php
-//pr($aControllerDatas);
-?>
+<?php if(isset($aControllerDatas['jeux_demos'])) { $jeux_demos = $aControllerDatas['jeux_demos'];} // table jeux_demos?> 
+<?php if(isset($aControllerDatas['articlesTypesList'])) { $articlesTypesList = $aControllerDatas['articlesTypesList'];} // table article type?>
+<?php if(isset($aControllerDatas['totalarticles'])) { $totalarticles = $aControllerDatas['totalarticles'];} //affiche le nbr d'articles?>
+<?php if(isset($aControllerDatas['com'])) { $com = $aControllerDatas['com'];} // compte le nbr de commentaires pour chaque articles?>
 
-<div class="grid_15 ">
-	<div class="fondtext titrefond">
-		<div class="titre">Les demonstrations!</div>
-
-		<div class="soustitre"><span>Le principe</span></div>
-		
-		<div class="text3">
-			<span class="gras">Le système</span> des parties rapides <span class="gras">est simple</span> et vous permet <span class="gras">d'affronter un ou plusieurs joueurs </span>autour d'un jeu. </br><span class="gras">Le gagnant</span> de la partie <span class="gras">remporte alors un nombre de points</span>  (allant de 5 à 50 points en fonction des jeux, voir <a href="#" class="liens" title="système de points" >système de points</a>). </br> Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. </br>
-			 </br>
-			Début des parties rapides : 9h00.</br>
-			Fin des parties rapides : 18h00.</br>
-		</div>
-		
-		<div class="soustitre"><span>Pour qui?</span></div>
-		<div class="text3">
-			<span class="gras">Type de joueurs </span>:  </br> 
-			</br>
-			Âge minimum : 10 ans.</br>
-			Âge maximum : Tant qu'on peut lancer des dés!</br>
-			Niveau de jeu : Le niveau dépend du niveau de vos adversaires.  </br>
-			
-		</div>
-		
-		<div class="soustitre"><span>Comment jouer?</span></div>
-		<div class="text3">
-			Vous <span class="gras">décidez de faire une partie</span> ! Rien de plus simple ...  </br>
-			Tout d'abord vous <span class="gras">devez choissir</span> parmis tous les jeux proposés <span class="gras">un jeu</span> auquel vous souhaitez participer.  </br>
-			(Pour connaître la liste des jeux, il vous suffit de vous adresser à l'un des animateurs, ou obtenir un dépliant.) </br>
-			 </br>
-			<span class="gras">Faites part de votre envie de participer</span> à l'uns des animateurs, et il se chargera de vous trouvez une place et un ou plusieurs adversaires suivant le jeu. </br>
-			Vous êtes prèts à combattre !! </br>
-			 
-		</div>
-		
-		<div class="soustitre"><span>Les jeux</span></div>
-		<div class="text3">
-			Voici la liste des jeux actuels disponible au Fury-Game : 
-		</div>
-		
-	</div>
-	<div class="fintext2"></div>
+<div class="grid_16 background_blanc">
+	<div class="titre grid_16 alpha omega">Les jeux en démonstrations</div>
+	<?php
+	/** Affiche les différents jeux en démonstration*/
+	/* Principe du modulo */ 
+	$cpt = 1;
+	foreach($jeux_demos as $k => $v) { 
 	
+	if($cpt%2 == 0) { $stylemore = 'margin-left:0px;margin-right:20px;'; }
+	else { $stylemore = 'margin-left:20px; margin-right:20px;'; }
+	
+	$cpt++;
+	?>
+		<div class="fondtext_front_news grid_8 alpha omega" style="width:440px; <?php echo $stylemore; ?> ">
+			<div class=" grid_8 alpha omega" style="width:440px;"> 
+				<a class="titre_front_demos" style="width:440px" href="<?php echo BASE_URL;?>/fury_games/details/<?php echo $v["id"]; ?> "><?php echo $v['title_image'];?></a>
+				<img class="icone_petit_news" src="<?php echo BASE_URL."/".$v['front_image'];?>" title="<?php echo $v['title_image']; ?>" alt="<?php echo $v['alt_image']; ?>"/>
+				
+				<div class="demo_description"><?php echo $v['description'];?></div>
+			
+				<div class="icone_demos">
+					<div>
+						<img class="age_icone" src="<?php echo BASE_URL;?>/img/jeux_tournois/age.png" title="age" alt="age"/>
+						<p class="age_p"><?php echo $v['age'];?>+</p>
+					</div>
+					<div>
+						<img class="time_icone" src="<?php echo BASE_URL;?>/img/jeux_tournois/time.png" title="temps de jeu" alt="temps de jeu"/>
+						<p class="time_p"><?php echo $v['duree'];?>H</p>
+					</div>
+					<div>
+						<img class="players_icone" src="<?php echo BASE_URL;?>/img/jeux_tournois/players.png" title="joueurs" alt="joueurs"/>
+						<p class="joueurs_p"><?php echo $v['nb_joueurs'];?></p>
+					</div>
+				</div>
+				<a href="<?php echo $v['lien_editeur'];?>" class="demos_liens">Site de l'éditeur</a>
+			</div>
+		</div>
+	<?php }?>	
 </div>
+
+	
+	
+			
+	
+	
+	
+	

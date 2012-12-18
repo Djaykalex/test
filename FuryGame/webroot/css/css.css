@@ -551,6 +551,13 @@ body{
 	margin-bottom:20px;
 	width:900px;
 }
+.fondtext_front_news_demos{
+	position:relative;
+	color:#666666;
+	font-size:20px;
+	margin-left:20px;
+	width:900px;
+}
 .titre_front_news {
 	font: 25px;
 	float:left;
@@ -558,7 +565,16 @@ body{
 	font-weight: bold;
 	margin-bottom:10px;
 }
-
+/* affiche les jeux en demonstrations*/
+.titre_front_demos {
+	color:black;
+	font-size:15px;
+}
+.demo_description{
+	font-size:13px;
+	text-align: justify;
+	margin-bottom:20px;
+}
 .ico_red{
 	position:absolute;
 	margin-top:-30px;
@@ -953,24 +969,50 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 }
 /** Icones Age, time et players*/
 .age_icone{
-	position:absolute;
-	margin-left:100px;
-	
+	float:left;
+	width:30px;
+	height:30px;
 }
 .time_icone{
-	position:absolute;
-	margin-left:220px;
+	float:left;
+	width:30px;
+	height:30px;
+	margin-left:10px;
+
 }
 .players_icone{
-	position:absolute;
-	margin-left:350px;
+	float:left;
+	width:30px;
+	height:30px;
+	margin-left:10px;
+}
+.icone_demos{
+margin-right:10px;
+float:left;
+overflow:hidden;
+width:201px;
+}
+.age_p{
+	float:left;
+}
+.time_p{
+	float:left;
+}
+.joueurs_p{
+	float:left;
+}
+.demos_liens{
+	font-size:13px;
+	float:right;
+}
+.fintext_demos{
+	margin-bottom:60px;
 }
 .boite{
 	z-index:1000;
 	position:absolute;
 	margin-top:70px;
 	margin-left:-895px;
-	
 	border: 3px solid #000;
 }
 .age{
@@ -981,7 +1023,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	text-align: justify;
 	margin-bottom:20px;
 	color:white;
-	font: 20px Georgia, Arial, Helvetica, sans-serif;
+	font: 20px Helvetica, Georgia, Arial, sans-serif;
 }
 .time{
 	position:absolute;
@@ -991,7 +1033,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	text-align: justify;
 	margin-bottom:20px;
 	color:white;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 }
 .players{
 	position:absolute;
@@ -1001,7 +1043,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	text-align: justify;
 	margin-bottom:20px;
 	color:white;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 }
 .description_jeux_tournois{
 	height:75px;
@@ -1011,7 +1053,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	text-align: justify;
 	width:450px;
 	color:white;
-	font: 14px Georgia, Arial, Helvetica, sans-serif;
+	font: 14px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 	font-style:italic;
 	z-index:10;
 }
@@ -1041,7 +1083,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-bottom:-50px;
 	height:140px;
 	color:white;
-	font: 14px Georgia, Arial, Helvetica, sans-serif;
+	font: 14px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 	width:850px;
 	text-align: justify;
 	margin-left:50px;
@@ -1128,7 +1170,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-top:50px;
 	text-align: justify;
 	margin-bottom:20px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 }
 
 .text2{
@@ -1136,13 +1178,13 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-top:50px;
 	margin-bottom:20px;
 	text-align: justify;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 }
 .text_center{
 	text-align:center;
 	margin-top:50px;
 	margin-bottom:20px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
 }
  .img{
 	border: 1px solid #000;

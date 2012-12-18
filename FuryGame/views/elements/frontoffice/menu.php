@@ -14,7 +14,7 @@ if(isset($_SESSION['user_id']) ) {
             <!--[if lte IE 6]><table><tr><td><![endif]-->
                 <ul class="level2">
 					<li><a href="<?php echo BASE_URL; ?>/fury_games/news">News</a></li>
-                    <li><a href="<?php echo BASE_URL; ?>/fury_games/tournois_rapide">Parties rapides</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>/fury_games/demonstrations">Jeux en démos</a></li>
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
             </li>

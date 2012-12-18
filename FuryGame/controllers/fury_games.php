@@ -311,3 +311,48 @@ function les_points() {
 function tournois_rapide() {
 
 }
+
+
+/**
+* La fonction demonstration va permettre d'afficher tous les jeux en démonstrations.
+* @param 	$id 		INT 		c'est l'identifiant de l'article
+* @param 	$table 		varchar  	variable qui contient le nom de la table
+* @param 	$link 		varchar  	c'est le connecteur
+* @param 	$_POST	 	mixed 		Données posté
+**/
+
+function demonstrations() {
+
+	global $link;
+	
+	if(isset($_POST) && !empty($_POST)) {
+	
+		foreach($_POST['delete'] as $k => $v){
+		
+			if($v == 1 ) {
+			
+				delete(array ('table' => 'articles', 'link' => $link, 'id' => $k));
+				
+			}
+		}
+	}
+	$aReturn = array(
+		
+		'jeux_demos' => find(array('table' => 'jeux_demos', 'link' => $link)), // affiche les jeux en démos
+	
+		/** commentaires d'un article */
+		// 'commentaires' => FindFirst(array('fields' => 'COUNT(id)', 'table' => 'commentaires', 'link' => $link, 'conditions' => 'online = 1 AND article_id = commentaires.id')), 
+		// affiche les commentaires sur l'article avec un compte du nombre de commentaires.
+		
+		/** Compte le nombre d'articles en 2 façon*/
+		// 'com' => $idCommentaires,
+		
+		/** commentaire_nbr compte le nombre total de commentaires*/
+		// 'commentaire_nbr' => FindFirst(array('fields' => 'COUNT(id)', 'table' => 'commentaires', 'link' => $link, 'conditions' => 'online = 1 AND article_id='.$idcom )),
+		
+		/** Compte le nombre d'articles en 2 façon*/
+		// 'totalarticles' => FindFirst(array('fields' => 'COUNT(id)', 'table' => 'articles', 'link' => $link, 'conditions' => array('Online' => 1))), // compte le nombre d'articles
+	
+		);
+	return $aReturn;
+}
