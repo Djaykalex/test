@@ -3,7 +3,6 @@
 <?php if(isset($aControllerDatas['totalarticles'])) { $totalarticles = $aControllerDatas['totalarticles'];} //affiche le nbr d'articles?>
 <?php if(isset($aControllerDatas['com'])) { $com = $aControllerDatas['com'];} // compte le nbr de commentaires pour chaque articles?>
 
-
 <div class="grid_16 background_blanc">
 	<div class="titre grid_16 alpha omega">Les News</div>
 	<?php

@@ -574,10 +574,12 @@ body{
 	font-weight: bold;
 	margin-bottom:10px;
 }
+
 /* affiche les jeux en demonstrations*/
 .titre_front_demos {
 	color:black;
 	font-size:15px;
+	font-weight: bold;
 }
 .demo_description{
 	font-size:13px;
@@ -618,6 +620,16 @@ body{
 	width:900px;
 	text-align: justify;
 	font: 17px Helvetica, sans-serif,Georgia, arial ;
+}
+.text_front a:hover{
+	width:900px;
+	text-align: justify;
+	font: 17px Helvetica, sans-serif,Georgia, arial ;
+	color:black;
+	font: 25px;
+	float:left;
+	font-weight: bold;
+
 }
 .fintext-front{
 	background:url(../img/wide-column-border.png) no-repeat;
