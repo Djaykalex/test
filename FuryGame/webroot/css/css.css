@@ -154,11 +154,12 @@ body{
 	margin-top:6px;
 	margin-left:16px;
 	color:white;
-	font-size:14px;
+	font-size:13px;
 }
 .bouton_voir_plus a:hover{
 	display:block;
 	width:180px;
+	color:#000;
 	
 }
 /*********************************
@@ -203,12 +204,13 @@ body{
 	margin-top:6px;
 	margin-left:16px;
 	color:white;
-	font-size:14px;
+	font-size:13px;
 }
 .bouton_voir_plus2 a:hover{
 	display:block;
 	height:50px;
 	width:180px;
+	color:#000;
 }
 /*********************************
 		focus 3eme colonne
@@ -254,12 +256,13 @@ body{
 	margin-top:6px;
 	margin-left:16px;
 	color:white;
-	font-size:14px;
+	font-size:13px;
 }
 .bouton_voir_plus3 a:hover{
 	display:block;
 	height:50px;
 	width:180px;
+	color:#000;
 }
 .slogan{
 	font: 20px Helvetica, sans-serif, Georgia, arial ;
@@ -318,10 +321,15 @@ body{
 }
 .bouton_voir_tout_focus a{
 	position:absolute;
-	margin-top:5px;
+	margin-top:8px;
 	margin-left:10px;
-	color:white;
-	
+	color:white;	
+}
+.bouton_voir_tout_focus a:hover{
+	position:absolute;
+	margin-top:8px;
+	margin-left:10px;
+	color:black;	
 }
 /************************************************************************
 
@@ -495,7 +503,7 @@ body{
 	background:url(../img/fleche_gauche.jpg) no-repeat;
 	height:102px;
 	width:150px;
-	margin-top:-1px;
+	margin-top:1px;
 	float: left;
 	margin-left: 10px;
 }
@@ -503,7 +511,7 @@ body{
 	background:url(../img/fleche_droite.jpg) no-repeat;
 	height:102px;
 	width:150px;
-	margin-top:-1px;
+	margin-top:1px;
 	float: right;
 	margin-right:0px;
 }
@@ -515,6 +523,7 @@ body{
 }
 .pager a {
 	margin: 0 5px;
+	font-size:14px;
 	text-decoration: none;
 }
 .pager a.selected {

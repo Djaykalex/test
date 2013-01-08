@@ -55,7 +55,7 @@
 <?php echo form_input('liens', "Lien du jeu" , array('type' => 'text', 'class' => 'maclass', 'name' => 'liens', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>
 
 <!--TFG-->
-<?php echo form_input('tfg', "Commentaire TFG" , array('type' => 'text', 'class' => 'maclass', 'name' => 'tfg', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>
+<?php echo form_input('tfg', "Commentaire TFG" , array('type' => 'textarea',  'class' => 'maclass',  'errors' => $aControllerDatas['errors'], 'values' => $jeux_tournois, 'wysiswyg' => true, 'cols' => 50, 'rows' => 20,)); ?>
 
 <!--Nombre de points-->
 <?php echo form_input('nb_points', "image des Points" , array('type' => 'text', 'class' => 'maclass', 'name' => 'nb_points', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>

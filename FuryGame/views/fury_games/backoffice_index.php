@@ -23,11 +23,11 @@
 						<th>Titre image</th>
 						<th>Front image</th>
 						<th>Description</th>
-						<th>age</th>
-						<th>durée</th>
-						<th>Nb joueurs</th>
-						<th></th>
-						<th></th>
+						<th>Age</th>
+						<th>Durée</th>
+						<th>Joueurs</th>
+						<th>Edit</th>
+						<th>Suppr</th>
 						<th><input type="checkbox"   class="checkall" /></th>
 					</tr> 
 				</thead> 
