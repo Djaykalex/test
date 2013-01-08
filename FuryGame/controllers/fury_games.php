@@ -32,7 +32,7 @@ function backoffice_index() {
 		}
 	}
 	$aReturn = array (
-		'articles' => find(array('table' => 'articles', 'link' => $link)),
+		'jeux_demos' => find(array('table' => 'jeux_demos', 'link' => $link)),
 		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link))
 		);
 	return $aReturn;
@@ -75,27 +75,33 @@ function backoffice_add() {
 
 
 /**
-* La fonction backoffice_edit va permettre d'éditer une liste des jeux.
+* La fonction backoffice_edit va permettre d'Ã©diter une liste des jeux.
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
-* @param 	$_POST	 	mixed 		Données posté
+* @param 	$_POST	 	mixed 		DonnÃ©es postÃ©
 **/
 
 function backoffice_edit($id) {
 
 	global $link;
-	
+	$errors = array();
 	if(isset($_POST) && !empty($_POST)) {
-
-		save(array('table' => 'articles', 'link' => $link), $_POST);
-		header("Location: ".BASE_URL."/articles/backoffice_index");
-
+	
+	global $validate;
+		
+		if(!empty($validate)) { $errors = validates($validate, $_POST);	}
+		
+		if (empty($errors)) {
+		
+			save(array('table' => 'jeux_demos', 'link' => $link), $_POST);
+			header("Location: ".BASE_URL."/fury_games/backoffice_index");
+		}
 	}
 	$aReturn = array(
-		'article' => findFirst(array('table' => 'articles', 'link' => $link, 'conditions' => 'id='.$id)), 
+		'jeux_demos' => findFirst(array('table' => 'jeux_demos', 'link' => $link, 'conditions' => 'id='.$id)), 
 		'id' => $id,
-		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link))
+		'errors' => $errors,
 	);
 	return $aReturn;
 }
@@ -106,7 +112,7 @@ function backoffice_edit($id) {
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
-* @param 	$_POST	 	mixed 		Données posté
+* @param 	$_POST	 	mixed 		DonnÃ©es postÃ©
 **/
 
 function backoffice_delete($id) {
@@ -356,3 +362,4 @@ function demonstrations() {
 		);
 	return $aReturn;
 }
+

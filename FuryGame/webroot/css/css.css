@@ -10,7 +10,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:-50px;
-	font: 14px Georgia;
+	font: 12px Helvetica, sans-serif, Georgia;
 	color:#333;
 }
 .header_logo_fg{
@@ -262,7 +262,7 @@ body{
 	width:180px;
 }
 .slogan{
-	font: 20px Georgia, arial ;
+	font: 20px Helvetica, sans-serif, Georgia, arial ;
 	font-weight:bold;
 	color:black;
 	font-style:italic;
@@ -270,7 +270,7 @@ body{
 	margin-bottom:30px;
 }
 .slogan span{
-	font: 20px Georgia, arial ;
+	font: 20px Helvetica, sans-serif,Georgia, arial ;
 	font-weight:bold;
 	color:#ea1515;
 	font-style:italic;
@@ -278,7 +278,7 @@ body{
 	margin-bottom:30px;
 }
 .slogan a {
-	font: 20px Georgia, arial ;
+	font: 20px Helvetica, sans-serif, Georgia, arial ;
 	font-weight:bold;
 	color:#ea1515;
 	font-style:italic;
@@ -389,7 +389,7 @@ body{
 	text-align:left;
 	height:90px;
 	width:300px;
-	font: 20px painted;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 }
 /*******************************************************************************
 							Infos pratiques
@@ -608,7 +608,7 @@ body{
 	float:left;
 	width:900px;
 	text-align: justify;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, sans-serif,Georgia, arial ;
 }
 .fintext-front{
 	background:url(../img/wide-column-border.png) no-repeat;
@@ -645,6 +645,21 @@ body{
 	margin-left:-5px;
 	width:240px;
 	height:200px;
+}
+/***************************************************
+			Page Index Fury-Game
+***************************************************/
+.explication_fury_game_text{
+	width:850px;
+	margin-left:50px;
+	margin-right:50px;
+	font-style:justify;
+}
+.img_news_back_silver{
+	margin-left:30px;
+}
+.bloc_paragraphe_fury_game{
+	margin-bottom:50px;
 }
 /** titre en dessous de l'image news du carrousel*/
 .focus_titre{
@@ -762,7 +777,7 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 	height:2px;
 }
 .titre{
-	font: 25px georgia, arial;
+	font: 25px  Helvetica, sans-serif,Georgia, arial ;
 	margin-top:50px;
 	text-align:center;
 	color:#ea1515;
@@ -770,21 +785,21 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 	margin-bottom:40px;
 }
 .titre_gestion_compte{
-	font: 25px georgia, arial;
+	font: 25px  Helvetica, sans-serif,Georgia, arial ;
 	text-align:center;
 	color:#ea1515;
 	font-weight: bold;
 	margin-bottom:40px;
 }
 .titre_details_articles{
-	font: 25px georgia, arial;
+	font: 25px  Helvetica, sans-serif,Georgia, arial ;
 	text-align:center;
 	color:#ea1515;
 	font-weight: bold;
 	margin-bottom:40px;
 }
 .titre a{
-	font: 30px painted;
+	font: 22px Helvetica, sans-serif,Georgia, arial ;
 	margin-top:0px;
 	text-align:center;
 	color:#ea1515;
@@ -812,7 +827,7 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 }
 /************************************************************************
 							
-							Pagination
+							Pagination affichage
 
 *************************************************************************/
 
@@ -840,49 +855,16 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 .pagination_articles a:hover{background-position: center -211px; }
 .pagination_page a:hover { background-position: center -211px; }
 .numero_page{
-	color:white;
-	font: 30px painted;
-	padding-left:13px;
-	padding-top:10px;
-	margin-right:-20px;
-	float: left;
-	width:70px;
-	height:75px;
-	background: url(../img/pagination.png) no-repeat;
+	
 }
 .numero_page_noir{
-	color:white;
-	font: 30px painted;
-	padding-left:13px;
-	padding-top:10px;
-	margin-right:-20px;
-	float: left;
-	width:70px;
-	height:75px;
-	background: url(../img/pagination2.png) no-repeat;
+	
 }
 .numero_page_com{
-	color:white;
-	font: 30px painted;
-	padding-left:13px;
-	padding-top:10px;
-	margin-right:-20px;
-	float: left;
-	width:70px;
-	height:75px;
-	background: url(../img/pagination.png) no-repeat;
+	
 }
 .numero_page_noir_com{
-	color:white;
-	font: 30px painted;
-	padding-left:13px;
-	padding-top:10px;
-	margin-right:-20px;
-	margin-left:110px;
-	float: left;
-	width:70px;
-	height:75px;
-	background: url(../img/pagination2.png) no-repeat;
+
 }
 /*************************************************************************
 						Le tournoi
@@ -893,22 +875,21 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 	margin-left:50px;
 	margin-top:20px;
 	margin-bottom:20px;
-	font: 15px Georgia;
+	font: 15px  Helvetica, sans-serif,Georgia, arial ;
 	text-align: justify;
 	width:850px;
 }
 .tournoi_soustitre{
 	padding-top:55px;
 	margin-bottom:10px;
-	color:white;
-	font: 30px painted;
+	margin-left:20px;
+	color:black;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
 }
 .tournois_paragraphe{
 	width:960px;
 }
-
-
 /************************************************************************
 
 				Parties rapides , guildes vs guildes , demos
@@ -978,7 +959,6 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	width:30px;
 	height:30px;
 	margin-left:10px;
-
 }
 .players_icone{
 	float:left;
@@ -987,10 +967,10 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-left:10px;
 }
 .icone_demos{
-margin-right:10px;
-float:left;
-overflow:hidden;
-width:201px;
+	margin-right:10px;
+	float:left;
+	overflow:hidden;
+	width:201px;
 }
 .age_p{
 	float:left;
@@ -1033,7 +1013,7 @@ width:201px;
 	text-align: justify;
 	margin-bottom:20px;
 	color:white;
-	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, sans-serif;
 }
 .players{
 	position:absolute;
@@ -1043,7 +1023,7 @@ width:201px;
 	text-align: justify;
 	margin-bottom:20px;
 	color:white;
-	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, sans-serif;
 }
 .description_jeux_tournois{
 	height:75px;
@@ -1053,7 +1033,7 @@ width:201px;
 	text-align: justify;
 	width:450px;
 	color:white;
-	font: 14px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 14px Helvetica, Georgia, Arial, sans-serif;
 	font-style:italic;
 	z-index:10;
 }
@@ -1083,7 +1063,7 @@ width:201px;
 	margin-bottom:-50px;
 	height:140px;
 	color:white;
-	font: 14px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 14px Helvetica, Georgia, Arial, sans-serif;
 	width:850px;
 	text-align: justify;
 	margin-left:50px;
@@ -1143,26 +1123,18 @@ width:201px;
 	margin-right:20px;
 	margin-top:20px;
 	margin-bottom:90px;
-	font: 17px Georgia;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	text-align: justify;
 }
 .gras{
-	
-	color:#96211b;
+	color:#ea1515;
 }
 .italic{
 	font-style:italic
 }
-
-
-
-
 /****************************************************************************
 				Fin Parties rapides , guildes vs guildes , demos
 *****************************************************************************/
-
-
-
 .text{
 	width:800px;
 	margin-left:auto;
@@ -1170,7 +1142,7 @@ width:201px;
 	margin-top:50px;
 	text-align: justify;
 	margin-bottom:20px;
-	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, sans-serif;
 }
 
 .text2{
@@ -1178,13 +1150,13 @@ width:201px;
 	margin-top:50px;
 	margin-bottom:20px;
 	text-align: justify;
-	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, sans-serif;
 }
 .text_center{
 	text-align:center;
 	margin-top:50px;
 	margin-bottom:20px;
-	font: 17px Helvetica, Georgia, Arial, Helvetica, sans-serif;
+	font: 17px Helvetica, Georgia, Arial, sans-serif;
 }
  .img{
 	border: 1px solid #000;
@@ -1225,8 +1197,6 @@ width:201px;
 .img7{
 	margin-left:60px;
 	margin-right:auto;
-	
-	
 }
 .imgdroite{
 	
@@ -1240,17 +1210,12 @@ width:201px;
 }
 .imggauchefooter{
 	margin-left:74px;
-	
-
 }
 .imgcentrefooter{
 	margin-left:15px;
-	
-
 }
 .plusdinfos{
 	color:#be352c;
-
 }
 
 #logoguilde{
@@ -1258,7 +1223,6 @@ width:201px;
 	position:relative;
 	margin-left:70px;
 	padding-top:-100px;
-
 }
 #logoguilde2{
 	margin-bottom:110px;
@@ -1347,15 +1311,12 @@ width:201px;
 	position:absolute;
 	margin-left:-223px;
 	margin-top:290px;
-
 }
 .foin2{
 	position:relative;
 	margin-left:-230px;
 	margin-top:-160px;
-
 }
-
 
 .description{
 	margin-top:-380px;
@@ -1363,32 +1324,22 @@ width:201px;
 	height:400px;
 	margin-left:270px;
 	text-align:left;
-
-
 }
 .description2{
 	width:500px;
 	height:380px;
 	margin-left:270px;
 	text-align:left;
-
-
 }
 .description3{
-	
 	margin-left:10px;
 	text-align:left;
 	margin-top:-100px;
-
-
 }
 .description_membres{
-	
 	margin-left:370px;
 	text-align:left;
 	margin-top:80px;
-
-
 }
 .textdescription{
 	width:100px;
@@ -1399,7 +1350,7 @@ width:201px;
 }
 .connect{
 	margin-left:30px;
-	font: 30px painted;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 }
 .fondtext1  a:hover{color:purple;}
 
@@ -1409,7 +1360,6 @@ width:201px;
 }
 .banniered{
 	padding-bottom:50px;
-	
 }
 .form{
 	margin-left:50px;
@@ -1419,8 +1369,6 @@ width:201px;
 .formrow{
 	margin-top:20px;
 	margin-bottom:20px;
-
-
 }
 
 .menus{
@@ -1531,7 +1479,7 @@ width:201px;
 }
 .label{
 	color:#333;
-	font: 20px Georgia, Arial, Helvetica, sans-serif;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 }
 /** logo Fury game page modification infos compte */
 .modif_compte_logo{
@@ -1571,7 +1519,7 @@ width:201px;
 	border:0px;
 	height:30px;
 	width:85px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	color:white;
 	margin-top:30px;
 
@@ -1584,13 +1532,13 @@ width:201px;
 	border:0px;
 	height:30px;
 	width:85px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	color:white;
 
 }
 .validation {
 	text-align:center;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	color:white;
 	display:block;
 }
@@ -1598,7 +1546,7 @@ width:201px;
 	display:block;
 	height:70px;
 	width:240px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	padding-left:30px;
 	padding-top:5px;
 	color:white;
@@ -1607,7 +1555,7 @@ width:201px;
 	display:block;
 	height:70px;
 	width:240px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	padding-left:30px;
 	padding-top:5px;
 	color:white;
@@ -1623,9 +1571,6 @@ width:201px;
 	padding-top:-100px;
 	position:absolute;
 	z-index:1000;
-	
-	
-
 }
 #logoguilde9{
 	position:absolute;
@@ -1645,7 +1590,7 @@ width:201px;
 	margin-left:50px;
 	margin-bottom:20px;
 	text-align: justify;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	
 }
 .titrecommentaires {
@@ -1656,23 +1601,23 @@ width:201px;
 	width:800px;
 	text-align: justify;
 	padding-left:50px;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	
 	
 }
 .titre_com{
-	font: 30px painted, georgia, arial,Helvetica, sans-serif;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	color:#ea1515;
 	font-weight: bold;
 }
 
 .auteur_commentaires{
-	font: 20px painted;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	margin-top:20px;
 	
 }
 .auteur_guildes{
-	font: 15px Georgia;
+	font: 15px  Helvetica, sans-serif,Georgia, arial ;
 }
 .table_commentaires{
 	
@@ -1713,7 +1658,7 @@ width:201px;
 	height:70px;
 	width:340px;
 	position:relative;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 	padding-left:30px;
 	margin-left:-70px;
 	padding-top:5px;
@@ -1733,7 +1678,6 @@ width:201px;
 	margin-bottom:20px;
 	position:relative;
 	z-index: 1000;
-
 }
 
 .bloc{
@@ -1741,7 +1685,6 @@ width:201px;
 }
 .row{
 	margin-top:10px;
-
 }
 .row_content{
 	margin-top:50px;
@@ -1764,13 +1707,9 @@ width:201px;
 	text-decoration: none;
 	font-weight: bold;
 	text-decoration: none;
-	
-	
 }
 
 .rows input em {
-	
-	
 	width: 180px;
 	height: 45px;
 	position: absolute;
@@ -1786,22 +1725,17 @@ width:201px;
 .rowright select em{
 	margin-left:-200px;
 	margin-top:-200px;
-
-
 }
 .p{
-	text-align:;
-	
 	margin-left:50px;
 	padding-left:170px;
 	color:white;
-	margin-top:0px;
 }
 .p2{
 	margin-left:100px;
 }
 .dicton{
-	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font: 18px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
 	color:#333;
 	text-align:center;
@@ -1813,7 +1747,7 @@ width:201px;
 
 ************************************************************/
 .dicton2{
-	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font: 18px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
 	color:#333;
 	margin-top:10px;
@@ -1821,7 +1755,7 @@ width:201px;
 	text-align: justify;
 }
 .dictonedit{
-	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font: 18px  Helvetica, sans-serif,Georgia, arial ;
 	color:#333;
 	margin-top:10px;
 	width:500px;
@@ -1830,7 +1764,7 @@ width:201px;
 	
 }
 .dictonedit_membres{
-	font: 18px Georgia, Arial, Helvetica, sans-serif;
+	font: 18px  Helvetica, sans-serif,Georgia, arial ;
 	color:#333;
 	margin-top:10px;
 	width:500px;
@@ -1839,7 +1773,7 @@ width:201px;
 	
 }
 .nomguilde{
-	font: 30px painted;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	color:#333;
 }
 .text_gestion_guildes{
@@ -1847,14 +1781,14 @@ width:201px;
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align: justify;
-	font: 17px Georgia, Arial, Helvetica, sans-serif;
+	font: 17px  Helvetica, sans-serif,Georgia, arial ;
 }
 /*********************************************************
 		FIN dicton, nom de guilde,  Gestion des guildes ... 
 
 ************************************************************/
 .InputRole{
-	padding-right: 500px;
+	padding-right:500px;
 	margin-right:500px;
 }
 .typearticle{
@@ -1862,7 +1796,7 @@ width:201px;
 	margin-right:auto;
 	text-align:center;
 	width:800px;
-	font: 20px Georgia, Arial, Helvetica, sans-serif;
+	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
 	
 }
@@ -1906,7 +1840,6 @@ width:201px;
 #footer{
 	background:url(../img/pied1.png) repeat-x center top ;
 	margin-right: auto;
-	
 	margin-left: auto;
 	height:200px;
 }
@@ -1915,10 +1848,7 @@ width:201px;
 	display:block;
 	height:300px;
 	margin-top:-20px;
-
 }
-
-
 .footerd p{
 	margin-top:10px;
 }
@@ -1943,7 +1873,6 @@ form {
 .field{
 	border-radius:7px;
 	width:150px;
-
 }
 hr{
 	height:1px;
@@ -1957,9 +1886,7 @@ hr{
 }
 
 .submit{
-	
 	margin-top:70px;
-	
 }
 .submit1 {
 	margin-left:5px;
@@ -1984,11 +1911,3 @@ hr{
 	margin-top:-350px;
 	margin-left:600px;
 }
-
-
-
-
-
-
-
-

@@ -11,7 +11,6 @@
 				'id' => "ArticleAdd"
 				));
 			?>
-			
 				<?php include(ELEMENTS.DS.'backoffice'.DS.'formulaires'.DS.'articles.php'); ?>
 			<?php echo form_close(); ?>
 			
