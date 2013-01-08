@@ -5,8 +5,8 @@
 <div class="section">
 	<div class="box">
 		<div class="title">
-			<h2>Liste des jeux en démos</h2>
-			<a class="btn black" href="<?php echo BASE_URL; ?>/fury_games/backoffice_add" style="float: right; margin-top: -33px;"><span>ajouter</span></a>
+			<h2>Liste des jeux au TFG</h2>
+			<a class="btn black" href="<?php echo BASE_URL; ?>/le_tournois/backoffice_add" style="float: right; margin-top: -33px;"><span>ajouter</span></a>
 		</div>
 		<div class="content">
 		
@@ -14,7 +14,7 @@
 				'enctype' => "multipart/form-data",
 				'method' => "post", 
 				'action' => $_SERVER['REQUEST_URI'], 
-				'id' => "JeuxDemosEdit"
+				'id' => "JeuxTournoisEdit"
 				));
 			?>
 			<table cellspacing="0" cellpadding="0" border="0" class="table">
@@ -33,7 +33,7 @@
 				</thead> 
 				<tbody> 
 					<?php 
-					foreach ($aControllerDatas['jeux_demos'] as $k => $v){ ?>
+					foreach ($aControllerDatas['jeux_tournois'] as $k => $v){ ?>
 					<tr> 
 						<td><?php echo $v['title_image']; ?></td>
 						<td><?php echo $v['front_image']; ?></td>
@@ -42,10 +42,10 @@
 						<td><?php echo $v['duree']; ?></td>
 						<td><?php echo $v['nb_joueurs']; ?></td>
 						<td>
-							<a href="<?php echo BASE_URL; ?>/fury_games/backoffice_edit/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-edit.png" alt="edit" /></a>
+							<a href="<?php echo BASE_URL; ?>/le_tournois/backoffice_edit/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-edit.png" alt="edit" /></a>
 						</td>
 						<td>
-							<a href="<?php echo BASE_URL; ?>/fury_games/backoffice_delete/<?php echo $v['id']; ?>" class="deleteBox" onclick="return confirm('Voulez vous vraiment supprimer?');"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-delete.png" alt="delete" /></a>
+							<a href="<?php echo BASE_URL; ?>/le_tournois/backoffice_delete/<?php echo $v['id']; ?>" class="deleteBox" onclick="return confirm('Voulez vous vraiment supprimer?');"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-delete.png" alt="delete" /></a>
 						</td>
 						<td class="txtcenter xxs"><input type="hidden" value="0" name="delete[<?php echo $v['id']; ?>]" id="InputDelete<?php echo $v['id']; ?>hidden">
 						<input type="checkbox" value="1" name="delete[<?php echo $v['id']; ?>]" id="InputDelete<?php echo $v['id']; ?>">

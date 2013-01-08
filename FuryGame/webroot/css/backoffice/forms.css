@@ -64,7 +64,8 @@ input {
 	font : 12px/15px Arial;
 	color : #1c1c1c;
 	text-align:left;
-	height : 100%;
+	width:250px;
+	/**height : 100%;*/
 }
 
 input.error,

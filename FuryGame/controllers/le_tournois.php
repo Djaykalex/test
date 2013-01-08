@@ -1,5 +1,5 @@
 <?php
-
+require(CONTROLLERS.DS.'controllers.php');
 /**
 * La fonction index va permettre d'afficher une liste des jeux.
 * @param 	$id 		INT 		c'est l'identifiant de l'article
@@ -12,7 +12,7 @@ function index() {
 
 
 /**
-* La fonction backoffice_index va permettre d'afficher en detail les jeux
+* La fonction backoffice_index va permettre d'afficher en detail les jeux du tournoi
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
@@ -27,20 +27,19 @@ function backoffice_index() {
 		foreach($_POST['delete'] as $k => $v){
 		
 			if($v == 1 ) {
-				delete (array ('table' => 'articles', 'link' => $link, 'id' => $k));
+				delete (array ('table' => 'jeux_tournois', 'link' => $link, 'id' => $k));
 			}
 		}
 	}
 	$aReturn = array (
-		'articles' => find(array('table' => 'articles', 'link' => $link)),
-		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link))
+		'jeux_tournois' => find(array('table' => 'jeux_tournois', 'link' => $link)),
 		);
 	return $aReturn;
 }
 
 
 /**
-* La fonction backoffice_add va permettre d'ajouter une liste des jeux.
+* La fonction backoffice_add va permettre d'ajouter une liste des jeux au tournoi.
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
@@ -61,14 +60,14 @@ function backoffice_add() {
 		
 		if (empty($errors)) {
 		
-			save(array('table' => 'articles', 'link' => $link), $_POST);
-			header("Location: ".BASE_URL."/articles/backoffice_index");
+			save(array('table' => 'jeux_tournois', 'link' => $link), $_POST);
+			header("Location: ".BASE_URL."/le_tournois/backoffice_index");
 			die();
 		}
 	}
 	
 	return array(
-		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link)),
+		
 		'errors' => $errors
 	);
 	
@@ -77,7 +76,7 @@ function backoffice_add() {
 
 
 /**
-* La fonction detail va permettre d'editer en detail un jeu
+* La fonction detail va permettre d'editer en detail un jeu au tournoi
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
@@ -87,17 +86,23 @@ function backoffice_add() {
 function backoffice_edit($id) {
 
 	global $link;
-	
+	$errors = array();
 	if(isset($_POST) && !empty($_POST)) {
-
-		save(array('table' => 'articles', 'link' => $link), $_POST);
-		header("Location: ".BASE_URL."/articles/backoffice_index");
-
+	
+	global $validate;
+		
+		if(!empty($validate)) { $errors = validates($validate, $_POST);	}
+		
+		if (empty($errors)) {
+		
+			save(array('table' => 'jeux_tournois', 'link' => $link), $_POST);
+			header("Location: ".BASE_URL."/le_tournois/backoffice_index");
+		}
 	}
 	$aReturn = array(
-		'article' => findFirst(array('table' => 'articles', 'link' => $link, 'conditions' => 'id='.$id)),
+		'jeux_tournois' => findFirst(array('table' => 'jeux_tournois', 'link' => $link, 'conditions' => 'id='.$id)),
 		'id' => $id,
-		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link))
+		'errors' => $errors
 	);
 	return $aReturn;
 }
@@ -115,8 +120,8 @@ function backoffice_delete($id) {
 	
 	global $link;
 	
-	delete (array ('table' => 'articles', 'link' => $link, 'id' => $id));
-	header("location:".BASE_URL."/articles/backoffice_index");	
+	delete (array ('table' => 'jeux_tournois', 'link' => $link, 'id' => $id));
+	header("location:".BASE_URL."/le_tournois/backoffice_index");	
 
 }
 

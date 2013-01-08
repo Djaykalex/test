@@ -49,6 +49,31 @@ function backoffice_index() {
 * @param 	$validate 	varchar 	variable qui verifie grace aux fonctions dans le fichier validation si les champs postés sont corrects.
 **/
 
+function backoffice_add1() {
+	
+	global $link;
+	$errors = array();
+	if(isset($_POST) && !empty($_POST)) {
+		
+		global $validate;
+		
+		if(!empty($validate)) { $errors = validates($validate, $_POST);	}
+		
+		if (empty($errors)) {
+		
+			save(array('table' => 'jeux_demos', 'link' => $link), $_POST);
+			header("Location: ".BASE_URL."/fury_games/backoffice_index");
+			die();
+		}
+	}
+
+	return array(
+		'jeux_demos' => findList(array('table' => 'jeux_demos', 'link' => $link)), 
+		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link)),
+		'errors' => $errors
+	);
+}
+
 function backoffice_add() {
 	
 	global $link;
@@ -61,21 +86,20 @@ function backoffice_add() {
 		
 		if (empty($errors)) {
 		
-			save(array('table' => 'articles', 'link' => $link), $_POST);
-			header("Location: ".BASE_URL."/articles/backoffice_index");
+			save(array('table' => 'jeux_demos', 'link' => $link), $_POST);
+			header("Location: ".BASE_URL."/fury_games/backoffice_index");
 			die();
 		}
 	}
-
+	
 	return array(
-		'articlesTypesList' => findList(array('table' => 'articles_types', 'link' => $link)),
+		
 		'errors' => $errors
 	);
 }
 
-
 /**
-* La fonction backoffice_edit va permettre d'Ã©diter une liste des jeux.
+* La fonction backoffice_edit va permettre d'éditer une liste des jeux.
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$table 		varchar  	variable qui contient le nom de la table
 * @param 	$link 		varchar  	c'est le connecteur
@@ -99,13 +123,12 @@ function backoffice_edit($id) {
 		}
 	}
 	$aReturn = array(
-		'jeux_demos' => findFirst(array('table' => 'jeux_demos', 'link' => $link, 'conditions' => 'id='.$id)), 
+		'jeux_demos' => findFirst(array('table' => 'jeux_demos', 'link' => $link, 'conditions' => 'id='.$id)),
 		'id' => $id,
 		'errors' => $errors,
 	);
 	return $aReturn;
 }
-
 
 /**
 * La fonction backoffice_delete va permettre de supprimer une liste des jeux.
@@ -119,8 +142,8 @@ function backoffice_delete($id) {
 	
 	global $link;
 	
-	delete (array ('table' => 'articles', 'link' => $link, 'id' => $id));
-	header("location:".BASE_URL."/articles/backoffice_index");	
+	delete (array ('table' => 'jeux_demos', 'link' => $link, 'id' => $id));
+	header("location:".BASE_URL."/fury_games/backoffice_index");	
 
 }
 

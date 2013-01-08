@@ -584,7 +584,7 @@ function save($parametres, $data){
 		if(isset($data['pass'])){
 				$data['pass'] = sha1($_POST['pass']);
 				
-			}
+		}
 		
 		foreach($data as $k=>$v) {
 			

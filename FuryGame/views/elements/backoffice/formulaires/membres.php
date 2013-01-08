@@ -1,8 +1,5 @@
 <?php if(isset($aControllerDatas['membres'])) { $article = $aControllerDatas['membres']; } ?>
 
-
-
-
 <div class="row">
 	<label>Nom</label>
 	<div class="rowright">
@@ -62,8 +59,6 @@
 		<?php if(isset($aControllerDatas['errors']['isauth'])) {  ?> <label for="isauth" generated="true" class="error"><?php echo $aControllerDatas['errors']['isauth']; ?></label> <?php } ?>
 	</div>
 </div>
-
-
 <div class="row">
 	<label>Role du joueur </label>
 	<div class="rowrights">
@@ -80,7 +75,6 @@
 	</select>	
 	</div>
 </div>
-	
 <div class="rowx">
 	<button type="submit" class="medium grey"><span>Valider</span></button>
 </div>

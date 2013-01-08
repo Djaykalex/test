@@ -7,13 +7,11 @@
 			<?php echo form_create(array(
 				'enctype' => "multipart/form-data",
 				'method' => "post", 
-				'action' => $_SERVER['PHP_SELF'], 
+				'action' => $_SERVER['REQUEST_URI'], 
 				'id' => "ArticleAdd"
 				));
 			?>
-				<?php include(ELEMENTS.DS.'backoffice'.DS.'formulaires'.DS.'articles.php'); ?>
-			<?php echo form_close(); ?>
-			
+			<?php include(ELEMENTS.DS.'backoffice'.DS.'formulaires'.DS.'articles.php'); ?>
 		</div>
 	</div>
 </div>
