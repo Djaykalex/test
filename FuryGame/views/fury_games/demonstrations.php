@@ -18,7 +18,8 @@
 	?>
 		<div class="fondtext_front_news grid_8 alpha omega" style="width:440px; <?php echo $stylemore; ?> ">
 			<div class=" grid_8 alpha omega" style="width:440px;"> 
-				<a class="titre_front_demos" style="width:440px" href="<?php echo BASE_URL;?>/fury_games/details/<?php echo $v["id"]; ?> "><?php echo $v['title_image'];?></a>
+				<!-- A refaire le lien vers les jeux en details -->
+				<a class="titre_front_demos" style="width:440px" href="<?php echo BASE_URL;?>/le_tournois/details_jeux/<?php echo $v["id"]; ?> "><?php echo $v['title_image'];?></a>
 				<img class="icone_petit_news" src="<?php echo BASE_URL."/".$v['front_image'];?>" title="<?php echo $v['title_image']; ?>" alt="<?php echo $v['alt_image']; ?>"/>
 				
 				<div class="demo_description"><?php echo $v['description'];?></div>

@@ -76,7 +76,7 @@ function index() {
 	
 	$aReturn = array (
 		
-		'article_resume' => find(array( 'table' => 'articles', 'link' => $link,'conditions' => array('Online' => 1))),
+		'article_resume' => find(array('table' => 'articles', 'link' => $link, 'conditions' => array('Online' => 1))),
 		'articlesTypesList' => findList2(array('table' => 'articles_types', 'link' => $link)),
 		
 		/** commentaires d'un article */
