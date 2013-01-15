@@ -41,6 +41,7 @@
 				<a href="<?php echo $v['lien_editeur'];?>" class="demos_liens">Site de l'éditeur</a>
 			</div>
 		</div>
+		
 	<?php }?>	
 </div>
 
