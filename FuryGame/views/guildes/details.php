@@ -7,9 +7,7 @@
 	if(isset($aControllerDatas['isauthguildes'])) { $isauthguildes = $aControllerDatas['isauthguildes']; }
 	if(isset($aControllerDatas['membres'])) { $membres = $aControllerDatas['membres']; } 
 	if(isset($aControllerDatas['guildelogo'])) { $guildelogo = $aControllerDatas['guildelogo']; } 
-	
 	/** commentaires **/
-	
 	if(isset($aControllerDatas['commentaire_nbr'])) { $com = $aControllerDatas['commentaire_nbr']; } /**Nombre de commentaires sur la page */
 	if(isset($aControllerDatas['affichage_commentaires'])) { $affichage_commentaires = $aControllerDatas['affichage_commentaires'];} /**Affiche les commentaires avec pseudo et guilde de l'auteur */
 	if(isset($aControllerDatas['lien_guilde_commentaires'])) { $lien_guilde_commentaires = $aControllerDatas['lien_guilde_commentaires']; } /**Enregistre le commentaire dans la bonne guilde */
@@ -17,40 +15,39 @@
 	if(isset($aControllerDatas['auteur_guilde_guildMaster'])) { $auteur_guilde_guildMaster = $aControllerDatas['auteur_guilde_guildMaster'];} /**Enregistre le nom de la guilde de l'auteur du commentaire en tant que GuildMaster */
 	if(isset($aControllerDatas['auteur_guilde_membre'])) { $auteur_guilde_membre = $aControllerDatas['auteur_guilde_membre'];} /**Enregistre le nom de la guilde de l'auteur du commentaire en tant que membre */
 	if(isset($aControllerDatas['content_Commentaires'])) { $content_commentaires = $aControllerDatas['content_Commentaires'];} /**Enregistre le contenu du commentaire */
-	
-	
  ?>
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
 		<div class="titre_details_articles">Bienvenue sur la guilde <?php echo $guildes['name']; ?>!</div>
-		<div class="soustitre"><span>Presentation</span></div>
-
 		<form class="form_compte" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="GuildeEdit">
-			<div class="dictonedit">
-				<label class="titre_guilde">Nom de la guilde : </label>
-				<div class="nomguilde"><?php echo $guildes['name']; ?></div>
-			</div>
-			<div class="dictonedit">
-				<label class="titre_guilde">Le dicton de la guilde : </label>
-				<div class="dicton2"><?php echo $guildes['dicton']; ?></div>
-			</div>
-			<div class="description2">
-					<label class="titre_guilde">Présentation : </label>
-					<div class="text_gestion_guildes"><?php echo $guildes['content']; ?></div>
-					
-			</div>
-			<div class="gestion_guilde_banniere">
+			<div class="grid_5" style="margin-top: 570px;">
+				<div class="gestion_guilde_banniere_test">
 					<img class="foin3" src="<?php echo BASE_URL; ?>/img/foin2.png" />
 					<img class=""id="logoguilde10" src="<?php echo BASE_URL."/".$guildelogo[$guildes['logo_id']];?>" />
 					<img class=""id="logoguilde9" src="<?php echo BASE_URL."/".$guildeban[$guildes['banniere_id']];?>" />
+				</div>
 			</div>
-			<div class="description3">
+			<div class="grid_9">
+				<div class="dictonedit">
+					<label class="titre_guilde">Nom de la guilde : </label>
+					<div class="nomguilde"><?php echo $guildes['name']; ?></div>
+				</div>
+				<div class="dictonedit">
+					<label class="titre_guilde">Le dicton de la guilde : </label>
+					<div class="dicton2"><?php echo $guildes['dicton']; ?></div>
+				</div>
+				<div class="description2">
+					<label class="titre_guilde">Présentation : </label>
+					<div class="text_gestion_guildes"><?php echo $guildes['content']; ?></div>
+				</div>
+				<div class="description3">
 					<label class="titre_guilde">Liste des membres : </label>
-					<div class="text_gestion_guildes">Guilde master :  </div>
+					<div class="text_gestion_guildes"><span>Guilde master :  </span></div>
 					<div class="text_gestion_guildes"><?php echo $isauth[$guildes['isauth_id']]; ?></div>
 					<!--<div class="text_gestion_guildes"><?php foreach ($membres as $k => $v) { echo $v."<br />"; } ?></div>-->
-					<div class="text_gestion_guildes">Membres : </div>
+					<div class="text_gestion_guildes"><span>Membres : </span></div>
 					<div class="text_gestion_guildes"><?php foreach ($guilde as $k => $v) { echo $v."<br />"; } ?></div>
+				</div>
 			</div>
 		</form>
 	</div>
@@ -65,17 +62,13 @@
 		foreach ($affichage_commentaires as $k => $v){ ?>
 			<div class="com"> 
 				<div class="auteur_commentaires"><?php echo $isauth[$v['isauth_id']]; ?> 
-
 					<span class="auteur_guildes"> <?php echo '['.$v['guildes_focus_id'].']' ;?></span>
-
 				</div>
 				<div class="contentcommentaires"><?php echo $v['content']; ?></div>
 			</div>
 		<?php } ;?>
 	</div> 
-	
 	<!-- Creation du commentaire --> 
-	
 	<?php if(isset($_SESSION['user_id'])) {   ?>
 	<form class="form" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="Commentaires_Guildes">
 		<div class="row">

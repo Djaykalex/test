@@ -13,7 +13,6 @@
 <div class="grid_16 background_blanc">
 	<div class="fondtext ">
 		<div class="titre_details_articles">Gestion des membres votre guilde !</div>
-		<div class="soustitre"><span>Comment faire ?</span></div>
 		<form class="form_compte" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 			<div class="dictonedit_membres">
 				<label class="titre_guilde">Nom de la guilde : </label>

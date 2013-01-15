@@ -12,35 +12,35 @@
 		<div class="rowstyle">
 			<label class="label">Nom</label>
 			<div class="rowright">
-				<input class="bloc" type="text" name="name" id="InputName" <?php echo isset($article['name']) ? 'value="'.$article['name'].'"' : ''; ?>>
+				<input class="imput_size" type="text" name="name" id="InputName" <?php echo isset($article['name']) ? 'value="'.$article['name'].'"' : ''; ?>>
 				<?php if(isset($aControllerDatas['errors']['name'])) {  ?> <label for="name" generated="true" class="error"><?php echo $aControllerDatas['errors']['name']; ?></label> <?php } ?>
 			</div>
 		</div>
 		<div class="rowstyle">
 			<label class="label">Prenom</label>
 			<div class="rowright">
-				<input type="text" name="prenom" id="InputPrenon" <?php echo isset($article['prenom']) ? 'value="'.$article['prenom'].'"' : ''; ?>>
+				<input class="imput_size" type="text" name="prenom" id="InputPrenon" <?php echo isset($article['prenom']) ? 'value="'.$article['prenom'].'"' : ''; ?>>
 				<?php if(isset($aControllerDatas['errors']['prenom'])) {  ?> <label for="prenom" generated="true" class="error"><?php echo $aControllerDatas['errors']['prenom']; ?></label> <?php } ?>
 			</div>
 		</div>
 		<div class="rowstyle">
 			<label class="label">Votre Login (adresse mail)</label>
 			<div class="rowright">
-				<input type="text" name="login" id="InputLogin" <?php echo isset($article['login']) ? 'value="'.$article['login'].'"' : ''; ?>>
+				<input class="imput_size" type="text" name="login" id="InputLogin" <?php echo isset($article['login']) ? 'value="'.$article['login'].'"' : ''; ?>>
 				<?php if(isset($aControllerDatas['errors']['login'])) {  ?> <label for="login" generated="true" class="error"><?php echo $aControllerDatas['errors']['login']; ?></label> <?php } ?>
 			</div>
 		</div>
 		<div class="rowstyle">
 			<label class="label">Mot de pass</label>
 			<div class="rowright">
-				<input type="text" name="pass" id="InputPass" <?php echo isset($article['pass']) ? 'value="'.$article['pass'].'"' : ''; ?>>
+				<input class="imput_size" type="text" name="pass" id="InputPass" <?php echo isset($article['pass']) ? 'value="'.$article['pass'].'"' : ''; ?>>
 				<?php if(isset($aControllerDatas['errors']['pass'])) {  ?> <label for="pass" generated="true" class="error"><?php echo $aControllerDatas['errors']['pass']; ?></label> <?php } ?>
 			</div>
 		</div>
 		<div class="rowstyle">
 			<label class="label">Pseudo</label>
 			<div class="rowright">
-				<input type="text" name="pseudo" id="InputPseudo" <?php echo isset($article['pseudo']) ? 'value="'.$article['pseudo'].'"' : ''; ?>>
+				<input class="imput_size" type="text" name="pseudo" id="InputPseudo" <?php echo isset($article['pseudo']) ? 'value="'.$article['pseudo'].'"' : ''; ?>>
 				<?php if(isset($aControllerDatas['errors']['pseudo'])) {  ?> <label for="pseudo" generated="true" class="error"><?php echo $aControllerDatas['errors']['pseudo']; ?></label> <?php } ?>
 			</div>
 		</div>
@@ -84,6 +84,7 @@
 		</div>
 		<div>ATTENTION !! Pour que votre changement de guilde s'effectue correctement vous devrez vous deconnecter et vous reconnecter</div>
 		<?php } ?> 
+		
 		<div class="rowstyle">
 			<button type="submit" class="buttomvalider"><span class="validation">Modifier</span></button>
 		</div>

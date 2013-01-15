@@ -36,8 +36,9 @@
 				<div class="text_gestion_guildes"><?php foreach ($membres_guilde as $k => $v) { echo 'Membres : '.$v."<br />"; } ?></div>
 			</div>
 			<div class="editer_slot">		
-				<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_guildes/<?php echo $guildes['id']; ?>"><span class="valid_edit">Modifier</span></a>
+				<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_guildes/<?php echo $guildes['id']; ?>"><span class="valid_modif">Modifier</span></a>
 			</div>
+			
 		</form>
 	</div>
 </div>

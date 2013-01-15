@@ -1,8 +1,7 @@
-<div class="grid_16 ">
-	<div class=" titrefond">
+<div class="grid_16 background_blanc">
+	<div class="">
 		<div class="titre">Le tournoi Fury-Game !</div>
 		<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-			<img class="fond_text_marron" src="<?php echo BASE_URL;?>/img/fond_text_marron.jpg" title="joueurs" alt="joueurs"/><!-- image fond -->
 			<div class="tournoi_text">
 				<div class="tournoi_soustitre"><span>Le principe</span></div>
 				<div>
@@ -14,7 +13,6 @@
 			</div>
 		</div>
 		<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-			<img class="fond_text_marron" src="<?php echo BASE_URL;?>/img/fond_text_marron.jpg" title="joueurs" alt="joueurs"/><!-- image fond -->
 			<div class="tournoi_text">
 				<div class="tournoi_soustitre"><span>Pour qui?</span></div>
 				<div>
@@ -27,7 +25,6 @@
 			</div>
 		</div>
 		<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-			<img class="fond_text_marron" src="<?php echo BASE_URL;?>/img/fond_text_marron.jpg" title="joueurs" alt="joueurs"/><!-- image fond -->
 			<div class="tournoi_text">
 				<div class="tournoi_soustitre"><span>Comment jouer?</span></div>
 				<div>
@@ -41,7 +38,6 @@
 			</div>
 		</div>
 		<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-			<img class="fond_text_marron" src="<?php echo BASE_URL;?>/img/fond_text_marron.jpg" title="joueurs" alt="joueurs"/><!-- image fond -->
 			<div class="tournoi_text">
 				<div class="tournoi_soustitre"><span>Les jeux</span></div>
 				<div>
