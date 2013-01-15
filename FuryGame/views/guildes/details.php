@@ -42,11 +42,10 @@
 				</div>
 				<div class="description3">
 					<label class="titre_guilde">Liste des membres : </label>
-					<div class="text_gestion_guildes"><span>Guilde master :  </span></div>
-					<div class="text_gestion_guildes"><?php echo $isauth[$guildes['isauth_id']]; ?></div>
+					<div class="text_gestion_guildes"><span>Guilde master :  </span><?php echo $isauth[$guildes['isauth_id']]; ?></div>
 					<!--<div class="text_gestion_guildes"><?php foreach ($membres as $k => $v) { echo $v."<br />"; } ?></div>-->
 					<div class="text_gestion_guildes"><span>Membres : </span></div>
-					<div class="text_gestion_guildes"><?php foreach ($guilde as $k => $v) { echo $v."<br />"; } ?></div>
+					<div class="text_gestion_guildes"><?php foreach ($guilde as $k => $v) { ?> - <?php echo $v."<br />"; } ?></div>
 				</div>
 			</div>
 		</form>
@@ -69,6 +68,7 @@
 		<?php } ;?>
 	</div> 
 	<!-- Creation du commentaire --> 
+	
 	<?php if(isset($_SESSION['user_id'])) {   ?>
 	<form class="form" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="Commentaires_Guildes">
 		<div class="row">

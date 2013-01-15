@@ -213,7 +213,7 @@ function details($id) {
 		'guildelogo' => $logo, // logo de la guilde
 		'guildeban' => $banniere, // couleur de la guilde
 		'isauthguilde' => findList(array('table' => 'isauth', 'link' => $link)), // membre de la guilde
-		'guilde' => findList(array('table' => 'isauth', 'link' => $link, 'conditions' => 'guildes_id = '.$id)), 
+		'guilde' => findList5(array('table' => 'isauth', 'link' => $link, 'conditions' => 'guildes_id = '.$id)), 
 		'guildes' => findFirst(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$id)),
 		'id' => $id,
 		
