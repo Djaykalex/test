@@ -27,14 +27,14 @@
 				</div>
 			</div>
 			<div class="row">
-				<label>telephone</label>
+				<label>Téléphone</label>
 				<div class="rowright">
 					<input type="text" name="telephone" id="InputTelephone" class="imput_size" <?php echo isset($article['telephone']) ? 'value="'.$article['telephone'].'"' : ''; ?>>
 					<?php if(isset($aControllerDatas['errors']['telephone'])) {  ?> </br></br><label for="telephone" generated="true" class="error"><img src="<?php echo BASE_URL; ?>/img/backoffice/icon-error.png" alt="Error" /><?php echo $aControllerDatas['errors']['telephone']; ?></label> <?php } ?>
 				</div>
 			</div>
 			<div class="row">
-				<label>Texte</label>
+				<label>Votre message</label>
 				<div class="rowright">
 					<textarea cols="50" rows="20" name="message" id="InputMessage" <?php echo isset($article['message']) ? 'value="'.$article['message'].'"' : ''; ?>></textarea>
 					<?php if(isset($aControllerDatas['errors']['message'])) {  ?> </br></br><label for="message" generated="true" class="error"><img src="<?php echo BASE_URL; ?>/img/backoffice/icon-error.png" alt="Error" /><?php echo $aControllerDatas['errors']['message']; ?></label> <?php } ?>
