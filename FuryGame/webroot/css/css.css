@@ -677,7 +677,10 @@ body{
 	font-style:justify;
 }
 .img_news_back_silver{
-	margin-left:30px;
+	margin-left:45px;
+}
+.img_news_back_silver a:hover{
+	margin-left:45px;
 }
 .bloc_paragraphe_fury_game{
 	margin-bottom:50px;
