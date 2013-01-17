@@ -678,9 +678,12 @@ body{
 }
 .img_news_back_silver{
 	margin-left:45px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow:3px 3px 15px #555;
 }
-.img_news_back_silver a:hover{
-	margin-left:45px;
+.img_news_back_silver:hover{
+	box-shadow:5px 5px 15px #ea1515;
+	
 }
 .bloc_paragraphe_fury_game{
 	margin-bottom:50px;

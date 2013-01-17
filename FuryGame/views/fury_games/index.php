@@ -9,9 +9,9 @@
 	<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
 		<div class="tournoi_text">
 			<div>
-				<a href="<?php echo BASE_URL;?>/fury_games/index" alt="Festival Fury-Game" title="Festival Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img1.png" title="tournois TFG" alt="tournois TFG"/></a>
-				<a href="<?php echo BASE_URL;?>/le_tournois/index" alt="Tournoi Fury-Game" title="Tournoi Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img1.png" title="tournois TFG" alt="tournois TFG"/></a>
-				<a href="<?php echo BASE_URL;?>/fury_games/demonstrations" alt="Animations Fury-Game" title="Animations Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img1.png" title="tournois TFG" alt="tournois TFG"/></a>
+				<a href="<?php echo BASE_URL;?>/fury_games/index" alt="Festival Fury-Game" title="Festival Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img2.png" title="tournois TFG" alt="tournois TFG"/></a>
+				<a href="<?php echo BASE_URL;?>/le_tournois/index" alt="Tournoi Fury-Game" title="Tournoi Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img3.png" title="tournois TFG" alt="tournois TFG"/></a>
+				<a href="<?php echo BASE_URL;?>/fury_games/demonstrations" alt="Animations Fury-Game" title="Animations Fury-Game"><img class="img_news_back_silver" src="<?php echo BASE_URL;?>/img/header_img4.png" title="tournois TFG" alt="tournois TFG"/></a>
 			</div>
 		</div>
 	</div>
