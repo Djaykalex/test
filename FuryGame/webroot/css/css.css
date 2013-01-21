@@ -13,7 +13,18 @@ body{
 	font: 12px Helvetica, sans-serif, Georgia;
 	color:#333;
 }
-
+a{
+	color:#ea1515;
+}
+.hr{
+	background:url(../img/hr.png) no-repeat scroll left top transparent;
+	clear:both;
+	height:1px;
+	margin: 15px 0 0 30px;
+}
+.icone_titre{
+	float:left;
+}
 .header_logo_fg{
 	position:absolute;
 	margin-top:50px;
@@ -804,6 +815,7 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 	height:2px;
 }
 .titre{
+
 	font: 25px  Helvetica, sans-serif,Georgia, arial ;
 	margin-top:50px;
 	text-align:center;
@@ -907,15 +919,27 @@ fintext2 correspond aux details articles, commentaires, images ... en grid 16
 	width:850px;
 }
 .tournoi_soustitre{
-	padding-top:55px;
 	margin-bottom:10px;
-	margin-left:20px;
+	margin-left:10px;
 	color:black;
 	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
 }
 .tournois_paragraphe{
 	width:960px;
+}
+.principe_tournoi{
+	margin-bottom:50px;
+}
+
+.tournoi_soustitre_icone{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.tournoi_description{
+	text-align: justify;
+	margin-top:20px;
 }
 /************************************************************************
 

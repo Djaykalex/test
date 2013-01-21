@@ -1,7 +1,7 @@
 <?php 
 if(isset($aControllerDatas['article'])) { $article = $aControllerDatas['article']; } // affiche le jeux ciblé présent au tournoi F-G
 ?>
-<div class="grid_16 ">
+<div class="grid_16">
 	<div class="">
 		<!--<div class="titre"><?php echo $article['name']; ?></div>-->
 	</div>
