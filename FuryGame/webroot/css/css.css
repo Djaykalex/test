@@ -596,6 +596,7 @@ a{
 	font-size:13px;
 	text-align: justify;
 	margin-bottom:20px;
+	color:black;
 }
 .ico_red{
 	position:absolute;
@@ -1272,7 +1273,8 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-left:15px;
 }
 .plusdinfos{
-	color:#be352c;
+	color:#ea1515;
+	font-weight: bold;
 }
 
 #logoguilde{
@@ -1286,25 +1288,20 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	position:relative;
 	margin-left:10px;
 	padding-top:-100px;
-	
-
 }
 #logoguilde3{
 	margin-bottom:50px;
 	padding-top:-100px;
-
 }
 #logoguilde5{
 	position:absolute;
 	margin-top:150px;
 	margin-left:-150px;
-	
 }
 #logoguilde6{
 	position:absolute;
 	margin-top:140px;
 	margin-left:95px;
-	
 }
 /******************************************************
 
@@ -1857,7 +1854,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align: justify;
-	font: 15px  Helvetica, sans-serif,Georgia, arial ;
+	font: 13px  Helvetica, sans-serif,Georgia, arial ;
 }
 .text_gestion_guildes span{
 	color:black;
