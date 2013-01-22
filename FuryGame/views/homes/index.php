@@ -67,7 +67,7 @@
 					<div class="focus">
 						<p>Team manager Bloodbowl est un hymne sportif dedie aux os brises, aux demonstrations athletiques a couper le souffle, a la violence et franchement a la tricherie.</p>
 					</div>
-					<div class="bouton_voir_plus"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/1 ">Voir plus</a></div>
+					<div class="bouton_voir_plus_test"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/1 ">Voir plus</a></div>
 				</div>		
 				
 			</div>
