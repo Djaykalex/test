@@ -20,6 +20,7 @@
 			'demo',	
 			'slicebox',	
 			'link-buttons',	
+			
 			'menu',
 			'css',
 			

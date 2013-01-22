@@ -1,25 +1,26 @@
 <div class="grid_16 background_blanc">
-	<div class="fondtext imageRow">
-		<div class="titre_details_articles">Le plan du site</div>
-		<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-			<div class="tournoi_text ">
-				<div>
-					<span class="gras">Le système</span> des parties rapides <span class="gras">est simple</span> et vous permet <span class="gras">d'affronter un ou plusieurs joueurs </span>autour d'un jeu. </br><span class="gras">Le gagnant</span> de la partie <span class="gras">remporte alors un nombre de points</span>  (allant de 5 à 50 points en fonction des jeux, voir <a href="<?php echo BASE_URL;?>/le_tournois/les_points/" class="liens" title="système de points" >système de points</a>).(allant de 5 à 50 points en fonction des jeux,(allant de 5 à 50 points en fonction des jeux,(allant de 5 à 50 points en fonction des jeux,(allant de 5 à 50 points en fonction des jeux,(allant de 5 à 50 points en fonction des jeux, 
-				</div>
-			</div>
-		</div>
-		<div class="single">
-			<a class="plan_du_site_img" href="<?php echo BASE_URL; ?>/img/plan-du-site-+-legende.jpg" rel="lightbox"><img src="<?php echo BASE_URL; ?>/img/plan-du-site-+-legende_petit.jpg" title="plan du site" alt="plan du site" /></a>
+	<div class="titre">Plan du site du Fury-Game !!</div>
+	<div class="grid_16 principe_tournoi" style=" width:900px; margin-right:20px">
+		<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/1358878674_Browser.png" title="Plan du site" alt="Plan du site" />
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
 		</div>
 	</div>
-	<div class="tournois_paragraphe"><!-- Bloc Paragraphe -->
-		<div class="tournoi_text">
-			<div>
-				<span class="gras">Le système</span> des parties rapides <span class="gras">est simple</span> et vous permet <span class="gras">d'affronter un ou plusieurs joueurs </span>autour d'un jeu. </br><span class="gras">Le gagnant</span> de la partie <span class="gras">remporte alors un nombre de points</span>  (allant de 5 à 50 points en fonction des jeux, voir <a href="<?php echo BASE_URL;?>/le_tournois/les_points/" class="liens" title="système de points" >système de points</a>). </br> Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. </br>
-				 </br>
-				Début des parties rapides : 9h00.</br>
-				Fin des parties rapides : 18h00.</br>
-			</div>
+</div>
+<div class="grid_16 background_blanc">
+	<div class="titre">Plan du site du Fury-Game !!</div>
+	<div class="single">
+		<a class="plan_du_site_img" href="<?php echo BASE_URL; ?>/img/plan-du-site-+-legende.jpg" rel="lightbox"><img src="<?php echo BASE_URL; ?>/img/plan-du-site-+-legende_petit.jpg" title="plan du site" alt="plan du site" /></a>
+	</div>
+</div>
+<div class="grid_16 background_blanc">
+	<div class="titre">Le parc Bocaud de Jacou accueil le festival</div>
+	<div class="grid_16 principe_tournoi" style=" width:900px; margin-right:20px">
+		<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/flag_guildes.png" title="Guilde contre guilde" alt="Guilde contre guilde" />
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
 		</div>
 	</div>
 	<div class="slideimg">

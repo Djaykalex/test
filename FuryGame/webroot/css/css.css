@@ -13,15 +13,6 @@ body{
 	font: 12px Helvetica, sans-serif, Georgia;
 	color:#333;
 }
-a{
-	color:#ea1515;
-}
-.hr{
-	background:url(../img/hr.png) no-repeat scroll left top transparent;
-	clear:both;
-	height:1px;
-	margin: 15px 0 0 30px;
-}
 .icone_titre{
 	float:left;
 }
@@ -65,6 +56,38 @@ a{
 .margebottom{
 	margin-bottom:20px;
 }
+/*******************************************************************************
+					Css général
+*******************************************************************************/
+a{
+	color:#ea1515;
+}
+.hr{
+	background:url(../img/hr.png) no-repeat scroll left top transparent;
+	clear:both;
+	height:1px;
+	margin: 15px 0 0 30px;
+}
+.blanc{
+	height:10px;
+	margin-bottom:10px;
+}
+.superbutton,.inner_main input.superbutton{
+	color:#fff;background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
+	height:28px;
+	width:auto;
+	line-height:28px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
+}
+.superbutton:hover,.inner_main input.superbutton:hover,a.superbutton.selected{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
 /*****************************************************************************
 					Zone focus page d'accueil
 *****************************************************************************/
@@ -158,7 +181,7 @@ a{
 	width:90px;
 	margin-left:55px;
 	margin-top:240px;
-	box-shadow:3px 3px 15px #555;
+	box-shadow:1px 1px 5px #555;
 }
 
 .bouton_voir_plus a{
@@ -209,7 +232,7 @@ a{
 	width:90px;
 	margin-left:360px;
 	margin-top:240px;
-	box-shadow:3px 3px 15px #555;
+	box-shadow:1px 1px 5px #555;
 }
 .bouton_voir_plus2 a{
 	position:absolute;
@@ -261,7 +284,7 @@ a{
 	width:90px;
 	margin-left:665px;
 	margin-top:240px;
-	box-shadow:3px 3px 15px #555;
+	box-shadow:1px 1px 5px #555;
 }
 .bouton_voir_plus3 a{
 	position:absolute;
@@ -329,7 +352,7 @@ a{
 	margin-left:750px;
 	margin-top:20px;
 	margin-bottom:20px;
-	box-shadow:3px 3px 15px #555;
+	box-shadow:1px 1px 5px #555;
 }
 .bouton_voir_tout_focus a{
 	position:absolute;
@@ -420,7 +443,7 @@ a{
 .plan_du_site_img img{
 	box-shadow:3px 3px 15px #555;
 	border: 3px solid #000;
-	margin-bottom:10px;
+	margin-bottom:30px;
 }
 .plan_du_site_slide_img{
 	box-shadow:3px 3px 15px #555;
@@ -1681,6 +1704,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	font: 20px  Helvetica, sans-serif,Georgia, arial ;
 	color:#ea1515;
 	font-weight: bold;
+	margin-top:-50px;
 }
 
 .auteur_commentaires{
@@ -1919,6 +1943,10 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 							footer
 							
 ************************************************************************************/
+.footer_all_partenaires{
+	margin-left:30px;
+	margin-top:20px;
+}
 #footer{
 	background:url(../img/pied1.png) repeat-x center top ;
 	margin-right: auto;
@@ -1983,6 +2011,11 @@ hr{
 	height:30px;
 	width:300px;
 }
+/****************************************************************************
+
+							Infos pratique
+*****************************************************************************/
+
 /****************************************************************************
 
 							Email contact

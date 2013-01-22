@@ -4,10 +4,6 @@
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
 		<div class="titre_details_articles">Créer votre compte</div>
-		<div class="text">
-			Vous souhaitez créer un compte afin d'etre Guild Master pour créer une guilde, etre membre d'une guilde, ou simple membre... C'est içi que ca se passe !! 
-		</div>
-		<div class="imagecompte"></div>
 		<form class="form" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 	
 			<div class="row">
@@ -87,7 +83,8 @@
 				<button type="submit" class="buttomvalider"><span class="validation">Valider</span></button>
 			</div>
 		</form>
+		<img class="contact_logo" style="margin-top:-570px;"src="<?php echo BASE_URL;?>/img/logo-fury-game.png" title="logo fury-game" alt="logo fury-game" />
+		<img class="contact_logo_assoc"  style="margin-top:-250px;" src="<?php echo BASE_URL;?>/img/press-start-to-play.png" title="logo press start to play" alt="logo press start to play" />
 	</div>
-	<div class="fintext"></div>
 </div>
 

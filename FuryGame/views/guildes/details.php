@@ -112,7 +112,7 @@
 				<?php if(isset($aControllerDatas['errors']['content'])) {  ?> <label for="content" generated="true" class="error"><?php echo $aControllerDatas['errors']['content']; ?></label> <?php } ?>
 			</div>
 			<div class="row">
-				<button type="submit" class="buttomvalider"><span class="validation">Ajouter</span></button>
+				<button type="submit" class="superbutton">Envoyer</button>
 			</div>
 		</div>
 	</form>
