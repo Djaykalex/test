@@ -60,7 +60,6 @@ if(isset($_SESSION['user_id']) ) {
 						<?php if(isset($_SESSION['user_id'])){?>
 						<li><a href="<?php echo BASE_URL; ?>/comptes/gestion_comptes">Gérer son compte</a></li>
 						
-						
 						<li><a href="<?php echo BASE_URL; ?>/users/logout">Déconnextion</a></li>
 					  <?php } ?>
                 </ul>
