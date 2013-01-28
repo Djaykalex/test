@@ -35,7 +35,7 @@
 				</tbody> 
 				<tfoot>
 					<tr>
-						<td class="suppr" colspan="4"class="txtright"><a class="btn red deleteFormBox" onclick="return confirm('Voulez vous vraiment supprimer?');" href="<?php echo BASE_URL; ?>/articles_types/backoffice_delete/<?php echo $v['id']; ?>" style="margin-top: 10px;"><span>SUPPRIMER</span></a></td>					
+						<td class="suppr" colspan="6"class="txtright"><a class="btn red deleteFormBox" onclick="return confirm('Voulez vous vraiment supprimer?');" href="<?php echo BASE_URL; ?>/articles_types/backoffice_delete/<?php echo $v['id']; ?>" style="margin-top: 10px;"><span>SUPPRIMER</span></a></td>					
 					</tr>
 				</tfoot>
 			</table>

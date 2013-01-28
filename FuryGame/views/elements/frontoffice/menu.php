@@ -46,11 +46,9 @@ if(isset($_SESSION['user_id']) ) {
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
             </li>
-            <li class="level1-li"><a class="level1-a drop" href="<?php echo BASE_URL; ?>/infos/index">Infos pratiques</a>
+            <li class="level1-li"><a class="level1-a drop" href="<?php echo BASE_URL; ?>/infos/index">Plan du site</a>
 				<ul class="level2">
-                    <li><a href="<?php echo BASE_URL; ?>/infos/plannings">Planning de la journée</a></li>
-                    <li><a href="<?php echo BASE_URL; ?>/infos/plan_du_sites">Plan du site</a></li>                
-                    <li><a href="<?php echo BASE_URL; ?>/contacts/index">contact_test</a></li>                
+                    <li><a href="<?php echo BASE_URL; ?>/infos/plannings">Planning de la journée</a></li>                             
                 </ul>
 			</li>
 			<li class="level1-li "><a class="level1-a drop" href="<?php echo BASE_URL; ?>/users/login">Se connecter</a><!--<![endif]-->

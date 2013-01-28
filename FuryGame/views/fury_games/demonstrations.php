@@ -36,7 +36,7 @@
 					<p class="joueurs_p"><?php echo $v['nb_joueurs'];?></p>
 				</div>
 			</div>
-			<a href="<?php echo $v['lien_editeur'];?>" target="_blank" class="demos_liens">Site de l'éditeur</a>
+			<div class="bouton_site_editeur"><a href="<?php echo $v['lien_editeur'];?>" target="_blank" class="demos_liens">Site de l'éditeur</a></div>
 		</div>
 	</div>
 	<?php }?>	

@@ -135,11 +135,3 @@ function plannings() {
 
 }
 
-
-/**
-* la fonction plannings affiche une page simple
-*/
-
-function plan_du_sites() {
-
-}

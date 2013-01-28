@@ -16,8 +16,8 @@ if(isset($aControllerDatas['article'])) { $article = $aControllerDatas['article'
 	<!--<img class="players_icone" src="<?php echo BASE_URL;?>/img/jeux_tournois/players.png" title="joueurs" alt="joueurs"/>-->
 	<div class="players"><?php echo $article['nb_joueurs']; ?> joueurs</div>
 	<img class="tfg_points_content" src="<?php echo BASE_URL;?>/img/jeux_tournois/tfg_points_content.png" title="jeux tournois" alt="jeux tournois"/>
-	<div class="description_jeux_tournois">"<?php echo $article['description']; ?>"</div>
-	<div class="tfg_content"><?php echo $article['content']; ?></div>
+	<div class="description_jeux_tournois">"<?php echo $article['description_court']; ?>"</div>
+	<div class="tfg_content"><?php echo $article['description_longue']; ?></div>
 	<a class="tfg_liens"  href="<?php echo $article['liens']; ?>" target="_blank">www.<?php echo $article['name']; ?></a>
 	<div class="tfg_end"></div>
 	<img class="tfg_img1" src="<?php echo BASE_URL."/".$article['img1'];?>" title="<?php echo $article['title_image']; ?>" alt="<?php echo $article['alt']; ?>"/>

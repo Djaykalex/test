@@ -30,14 +30,11 @@
 <!--le nom du jeu-->
 <?php echo form_input('name', "Nom du jeu" , array('type' => 'text', 'class' => 'maclass', 'name' => 'name', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>
 
-<!--le focus-->
-<?php echo form_input('focus', "Petit resumé" , array('type' => 'text', 'class' => 'maclass', 'name' => 'focus', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>
-
 <!-- Description du jeu en démo-->
-<?php echo form_input('description', "Description du jeu" , array('type' => 'textarea',  'class' => 'maclass',  'errors' => $aControllerDatas['errors'], 'values' => $jeux_tournois, 'wysiswyg' => true, 'cols' => 50, 'rows' => 20,)); ?>
+<?php echo form_input('description_court', "Description courte" , array('type' => 'textarea',  'class' => 'maclass',  'errors' => $aControllerDatas['errors'], 'values' => $jeux_tournois, 'wysiswyg' => true, 'cols' => 50, 'rows' => 20,)); ?>
 
 <!-- Content du jeu en démo-->
-<?php echo form_input('content', "Contenu du jeu" , array('type' => 'textarea',  'class' => 'maclass',  'errors' => $aControllerDatas['errors'], 'values' => $jeux_tournois, 'wysiswyg' => true, 'cols' => 50, 'rows' => 20,)); ?>
+<?php echo form_input('description_longue', "Description longue" , array('type' => 'textarea',  'class' => 'maclass',  'errors' => $aControllerDatas['errors'], 'values' => $jeux_tournois, 'wysiswyg' => true, 'cols' => 50, 'rows' => 20,)); ?>
 
 <!-- L'age pour le jeu-->
 <?php echo form_input('age', "age pour le jeu" , array('type' => 'text', 'class' => 'maclass', 'name' => 'age', 'errors' => $aControllerDatas['errors'],'values' => $jeux_tournois  )); ?>

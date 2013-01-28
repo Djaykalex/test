@@ -69,7 +69,6 @@
 					</div>
 					<div class="bouton_voir_plus_test"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/1 ">En savoir +</a></div>
 				</div>		
-				
 			</div>
 			<!-- 1ere ligne -->
 			<!-- 2eme colonne -->
@@ -83,7 +82,7 @@
 					<div class="focus2">
 						<p>Munchkin, bienvenue dans le Donjon ! Tuez tout ce qui se présente devant vous. Poignardez vos amis. Ramassez tous les trésors et fuyez !</p>
 					</div>
-					<div class="bouton_voir_plus2"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/4 ">Voir plus</a></div>
+					<div class="bouton_voir_plus_test2"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/4 ">En savoir +</a></div>
 				</div>		
 			</div>
 			<!-- 1er ligne -->
@@ -98,7 +97,7 @@
 					<div class="focus3">
 						<p>Zombicide, la SCIENCE a permis à l’Homme de transformer la faune et la flore. Ces altérations ont eu de graves conséquences sur l’organisme humain.</p>
 					</div>
-					<div class="bouton_voir_plus3"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/7 ">Voir plus</a></div>
+					<div class="bouton_voir_plus_test3"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/7 ">En savoir +</a></div>
 				</div>		
 			</div>
 		</div>
@@ -113,9 +112,8 @@
 					<div class="focus">
 						<p>Blokus Classique en famille ou entre amis, il faudra redoubler de stratégie pour remporter la partie !</p>
 					</div>
-					<div class="bouton_voir_plus"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/11 ">Voir plus</a></div>
+					<div class="bouton_voir_plus_test"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/11 ">En savoir +</a></div>
 				</div>		
-				
 			</div>
 			<!-- 1ere ligne -->
 			<!-- 2eme colonne -->
@@ -129,7 +127,7 @@
 					<div class="focus2">
 						<p>Nouvelle version du grand classique. Il faut être le premier à mener à bien sa mission secrète ou être le premier à conquérir le monde!</p>
 					</div>
-					<div class="bouton_voir_plus2"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/3 ">Voir plus</a></div>
+					<div class="bouton_voir_plus_test2"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/3 ">En savoir +</a></div>
 				</div>		
 			</div>
 			<!-- 1er ligne -->
@@ -144,12 +142,14 @@
 					<div class="focus3">
 						<p>Vous êtes un zombie. Et vous voulez des cerveeaauux. Plus que vos copains zombies.</p>
 					</div>
-					<div class="bouton_voir_plus3"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/7 ">Voir plus</a></div>
-				</div>		
+					<div class="bouton_voir_plus_test3"><a href="<?php echo BASE_URL;?>/le_tournois/details_jeux/7 ">En savoir +</a></div>
+				</div>
 			</div>
 		</div>
 		<div class="bouton_voir_tout_focus"><a href="<?php echo BASE_URL;?>/le_tournois/liste_des_jeux" title="" >Voir la suite des jeux</a></div>
 		<!-- Fin section jeux focus-->
+		</br>
+		</br>
 		</br>
 	</div>	
 	<!-- SLOGAN-->

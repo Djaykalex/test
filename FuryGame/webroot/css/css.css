@@ -174,19 +174,10 @@ a{
 }
 	
 /** Bouton focus voir plus */
-.bouton_voir_plus{
-	position:absolute;
-	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
-	border-radius: 5px 5px 5px 5px;
-	height:30px;
-	width:90px;
-	margin-left:55px;
-	margin-top:240px;
-	box-shadow:1px 1px 5px #555;
-}
+
 .bouton_voir_plus_test{
-	
-	color:#fff;background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
 	border:1px solid #9e2b2b;
 	box-shadow:inset 0 1px 1px #ec6161;
 	text-shadow:1px 1px #9e2b2b; 
@@ -203,21 +194,11 @@ a{
 	margin-left:-235px;
 	margin-top:240px;
 }
+
 .bouton_voir_plus_test a{color:white;}
 .bouton_voir_plus_test:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
-.bouton_voir_plus a{
-	position:absolute;
-	margin-top:6px;
-	margin-left:16px;
-	color:white;
-	font-size:13px;
-}
-.bouton_voir_plus a:hover{
-	display:block;
-	width:180px;
-	color:#000;
-	
-}
+
+
 /*********************************
 		focus 2eme colonne
 **********************************/
@@ -245,29 +226,29 @@ a{
 	text-align: justify;
 }
 /** Bouton focus voir plus2 */
-.bouton_voir_plus2{
-	position:absolute;
-	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
-	border-radius: 5px 5px 5px 5px;
+.bouton_voir_plus_test2{
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
 	height:30px;
-	width:90px;
-	margin-left:360px;
-	margin-top:240px;
-	box-shadow:1px 1px 5px #555;
-}
-.bouton_voir_plus2 a{
+	width:auto;
+	line-height:30px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
 	position:absolute;
-	margin-top:6px;
-	margin-left:16px;
-	color:white;
-	font-size:13px;
+	margin-left:-235px;
+	margin-top:240px;
 }
-.bouton_voir_plus2 a:hover{
-	display:block;
-	height:50px;
-	width:180px;
-	color:#000;
-}
+
+.bouton_voir_plus_test2 a{color:white;}
+.bouton_voir_plus_test2:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
+
 /*********************************
 		focus 3eme colonne
 **********************************/
@@ -297,29 +278,28 @@ a{
 	color:white;
 }
 /** Bouton focus voir plus3 */
-.bouton_voir_plus3{
-	position:absolute;
-	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
-	border-radius: 5px 5px 5px 5px;
+.bouton_voir_plus_test3{
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
 	height:30px;
-	width:90px;
-	margin-left:665px;
-	margin-top:240px;
-	box-shadow:1px 1px 5px #555;
-}
-.bouton_voir_plus3 a{
+	width:auto;
+	line-height:30px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
 	position:absolute;
-	margin-top:6px;
-	margin-left:16px;
-	color:white;
-	font-size:13px;
+	margin-left:-235px;
+	margin-top:240px;
 }
-.bouton_voir_plus3 a:hover{
-	display:block;
-	height:50px;
-	width:180px;
-	color:#000;
-}
+
+.bouton_voir_plus_test3 a{color:white;}
+.bouton_voir_plus_test3:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
 .slogan{
 	font: 20px Helvetica, sans-serif, Georgia, arial ;
 	font-weight:bold;
@@ -364,29 +344,49 @@ a{
 .focus2ligne{
 	margin-top:30px;
 }
+
 .bouton_voir_tout_focus{
-	/**background: url(../img/superbutton.png) repeat-x center -1140px transparent;*/
-	background: url(../img/bouton_rouge.jpg) repeat-x center transparent;
-	border-radius: 5px 5px 5px 5px;
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
 	height:30px;
-	width:150px;
+	width:auto;
+	line-height:30px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
+	position:absolute;
 	margin-left:750px;
-	margin-top:20px;
-	margin-bottom:20px;
-	box-shadow:1px 1px 5px #555;
 }
-.bouton_voir_tout_focus a{
-	position:absolute;
-	margin-top:8px;
-	margin-left:10px;
-	color:white;	
+
+.bouton_voir_tout_focus a{color:white;}
+.bouton_voir_tout_focus:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
+
+.bouton_site_editeur{
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
+	height:30px;
+	width:auto;
+	line-height:30px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
+	float:right;
+	
 }
-.bouton_voir_tout_focus a:hover{
-	position:absolute;
-	margin-top:8px;
-	margin-left:10px;
-	color:black;	
-}
+.bouton_site_editeur a{color:white;}
+.bouton_site_editeur:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
 /************************************************************************
 
 						Table 
@@ -2036,7 +2036,9 @@ hr{
 
 							Infos pratique
 *****************************************************************************/
-
+.plan_geo{
+	margin-left:100px;
+}
 /****************************************************************************
 
 							Email contact
