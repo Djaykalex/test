@@ -26,12 +26,8 @@
 	<div class="fondtext">
 		<div class="titre_details_articles"> Membres de la guilde <?php echo $guildes['name']; ?></div>
 		<a class="btn black" href="<?php echo BASE_URL; ?>/membres/backoffice_add" style="float: right; margin-top: -33px;"><span>ajouter</span></a>
-		<div class="gestion_membres_guilde_banniere">
-			<img class="foin3_membres" src="<?php echo BASE_URL; ?>/img/foin2.png" />
-			<img class=""id="logo_membres_guilde" src="<?php echo BASE_URL."/".$guildeban['lien'];?>" />
-			<img class=""id="logo_membres_guilde2" src="<?php echo BASE_URL."/".$guildelogo['img'];?>" />
-		</div>
-		<div class="content_edite">
+		
+		<div class="">
 			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 				<table cellspacing="0" cellpadding="0" border="0" class="table">
 					<thead>
@@ -67,3 +63,5 @@
 		die();
 	} 
 ?>
+
+
