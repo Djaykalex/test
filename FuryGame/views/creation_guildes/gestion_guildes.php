@@ -40,13 +40,10 @@
 					<div class="text_gestion_guildes"><?php echo 'Guilde Master : '.$name_guilde_master['name']; ?></div>
 					<div class="text_gestion_guildes"><?php foreach ($membres_guilde as $k => $v) { echo 'Membres : '.$v."<br />"; } ?></div>
 				</div>
-				<div class="editer_slot">		
-					<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_guildes/<?php echo $guildes['id']; ?>"><span class="valid_modif">Modifier</span></a>
-				</div>
+				<div class="bouton_modifier"><a href="<?php echo BASE_URL; ?>/creation_guildes/editer_guildes/<?php echo $guildes['id']; ?>">Modifier la guilde</a></div>
 			</div>
 		</form>
 	</div>
-	
 </div>
 <?php 
 } else {

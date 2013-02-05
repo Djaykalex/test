@@ -224,6 +224,29 @@ a{
 .bouton_valider a{color:white;}
 .bouton_valider:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
 
+/**Bouton modifier **/
+.bouton_modifier{
+	color:#fff;
+	background:url(../img/frontoffice/superbutton.png) repeat-x center -1141px transparent;
+	border:1px solid #9e2b2b;
+	box-shadow:inset 0 1px 1px #ec6161;
+	text-shadow:1px 1px #9e2b2b; 
+	border-radius:4px 4px 4px 4px; 
+	font-size:15px;
+	height:30px;
+	width:auto;
+	line-height:30px;
+	margin: 0 6px 6px 0;
+	padding:0 13px;
+	text-decoration:none;
+	display:inline;
+	position:absolute;
+	margin-left:0px;
+	margin-top:0px;
+}
+.bouton_modifier a{color:white;}
+.bouton_modifier:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
+
 /*********************************
 		focus 2eme colonne
 **********************************/

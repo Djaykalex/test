@@ -1,5 +1,4 @@
-
-<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
+<img src="http://localhost/FuryGame/webroot/img/logo-fury-game-footer.png"/>
 <h1>Accusé de reception!</h1>
 <p>Votre compte à bien été validé! </p>
 

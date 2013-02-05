@@ -6,30 +6,40 @@
 	if(isset($aControllerDatas['name_guilde_master'])) { $name_guilde_master = $aControllerDatas['name_guilde_master']; } // affichage du nom du Guilde master
 ?>
 <?php if(isset($_SESSION['role']) && $_SESSION['role'] == 1 ){
-/** On securise, si le rÙle de la personne qui essaie de se connecter sur la page "gestion_membres_guildes" en changeant l'URL manuellement, n'a pas 
-	un rÙle de rang 1, il sera alors redirigÈ vers l'accueil.
+/** On securise, si le r√¥le de la personne qui essaie de se connecter sur la page "gestion_membres_guildes" en changeant l'URL manuellement, n'a pas 
+	un r√¥le de rang 1, il sera alors redirig√© vers l'accueil.
 */
 ?>
 <div class="grid_16 background_blanc">
 	<div class="fondtext ">
-		<div class="titre_details_articles">Gestion des membres votre guilde !</div>
+		<div class="titre_details_articles">Gestion de votre guilde !</div>
 		<form class="form_compte" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
-			<div class="dictonedit_membres">
-				<label class="titre_guilde">Nom de la guilde : </label>
-				<div class="nomguilde"><?php echo $guildes['name']; ?></div>
+			<div class="grid_5" style="margin-top: 570px;">
+				<div class="gestion_guilde_banniere">
+					<img class="foin3" src="<?php echo BASE_URL; ?>/img/foin2.png" />
+					<img class=""id="logoguilde7" src="<?php echo BASE_URL."/".$guildeban['lien'];?>" />
+					<img class=""id="logoguilde8" src="<?php echo BASE_URL."/".$guildelogo['img'];?>" />
+				</div>
 			</div>
-			<div class="gestion_membres_guilde_banniere">
-				<img class="foin3_membres" src="<?php echo BASE_URL; ?>/img/foin2.png" />
-				<img class=""id="logo_membres_guilde" src="<?php echo BASE_URL."/".$guildeban['lien'];?>" />
-				<img class=""id="logo_membres_guilde2" src="<?php echo BASE_URL."/".$guildelogo['img'];?>" />
-			</div>
-			<div class="description_membres">
-				<label class="titre_guilde">Liste des membres : </label>
-				<div class="text_gestion_guildes"><?php echo 'Guilde Master : '.$name_guilde_master['name']; ?></div>
-				<div class="text_gestion_guildes"><?php foreach ($membre_guilde as $k => $v) { echo 'Membres : '.$v."<br />"; } ?></div>
-			</div>
-			<div class="editer_slot_membres">		
-				<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres_guildes/<?php echo $guildes['id']; ?>"><span class="valid_modif">Modifier les membres</span></a>
+			<div class="grid_9">
+				<div class="dictonedit">
+					<label class="titre_guilde">Nom de la guilde : </label>
+					<div class="nomguilde"><?php echo $guildes['name']; ?></div>
+				</div>
+				<div class="dictonedit">
+					<label class="titre_guilde">Votre dicton : </label>
+					<div class="dicton2"><?php echo $guildes['dicton']; ?></div>
+				</div>
+				<div class="description2">
+					<label class="titre_guilde">Votre pr√©sentation : </label>
+					<div class="text_gestion_guildes"><?php echo $guildes['content']; ?></div>
+				</div>
+				<div class="description3">
+					<label class="titre_guilde">Liste des membres : </label>
+					<div class="text_gestion_guildes"><?php echo 'Guilde Master : '.$name_guilde_master['name']; ?></div>
+					<div class="text_gestion_guildes"><?php foreach ($membre_guilde as $k => $v) { echo 'Membres : '.$v."<br />"; } ?></div>
+				</div>
+				<div class="bouton_modifier"><a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres_guildes/<?php echo $guildes['id']; ?>">Modifier les membres</a></div>
 			</div>
 		</form>
 	</div>
