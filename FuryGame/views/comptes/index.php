@@ -3,7 +3,7 @@
 
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
-		<div class="titre_details_articles">Créer votre compte</div>
+		<div class="titre_details_articles">Création de votre compte</div>
 		<form class="form" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 	
 			<div class="row">
@@ -37,7 +37,7 @@
 			</div>
 			<!--Mot de passe -->
 			<div class="row">
-				<label>Mot de pass</label>
+				<label>Mot de passe</label>
 				<div class="rowright">
 					<input type="password" name="pass" id="InputPass"  class="imput_size"<?php echo isset($comptes['pass']) ? 'value="'.$comptes['pass'].'"' : ''; ?>>
 					<?php if(isset($aControllerDatas['errors']['pass'])) {  ?> </br><label for="pass" generated="true" class="error"><img src="<?php echo BASE_URL; ?>/img/backoffice/icon-error.png" alt="Error" /><?php echo $aControllerDatas['errors']['pass']; ?></label> <?php } ?>
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<button type="submit" class="buttomvalider"><span class="validation">Valider</span></button>
+				<button type="submit" class="bouton_valider">Valider</button>
 			</div>
 		</form>
 		<img class="contact_logo" style="margin-top:-570px;"src="<?php echo BASE_URL;?>/img/logo-fury-game.png" title="logo fury-game" alt="logo fury-game" />

@@ -1,36 +1,48 @@
-<?php
-//pr($aControllerDatas);
-?>
-
 <div class="grid_16 background_blanc">
-	<div class="fondtext">
-		<div class="titre_details_articles">Le planning de la journee!</div>
-
-		<div class="soustitre"><span>Le Matin</span></div>
-		
-		<div class="text3">
-			<span class="gras">Le système</span> des parties rapides <span class="gras">est simple</span> et vous permet <span class="gras">d'affronter un ou plusieurs joueurs </span>autour d'un jeu. </br><span class="gras">Le gagnant</span> de la partie <span class="gras">remporte alors un nombre de points</span>  (allant de 5 à 50 points en fonction des jeux, voir <a href="#" class="liens" title="système de points" >système de points</a>). </br> Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. </br>
-			 </br>
-			Début des parties rapides : 9h00.</br>
-			Fin des parties rapides : 18h00.</br>
-		</div>
-		<div class="soustitre"><span>Le midi</span></div>
-		<div class="text3">
-			Vous <span class="gras">décidez de faire une partie</span> ! Rien de plus simple ...  </br>
-			Tout d'abord vous <span class="gras">devez choissir</span> parmis tous les jeux proposés <span class="gras">un jeu</span> auquel vous souhaitez participer.  </br>
-			(Pour connaître la liste des jeux, il vous suffit de vous adresser à l'un des animateurs, ou obtenir un dépliant.) </br>
-			 </br>
-			<span class="gras">Faites part de votre envie de participer</span> à l'uns des animateurs, et il se chargera de vous trouvez une place et un ou plusieurs adversaires suivant le jeu. </br>
-			Vous êtes prèts à combattre !! </br>
-			 
-		</div>
-		
-		<div class="soustitre"><span>L'apreme</span></div>
-		<div class="text3">
-			Voici la liste des jeux actuels disponible au Fury-Game : 
-		</div>
-		
+	<div class="grid_3 icone_article">
+	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/1358450134_games.png" title="Guilde contre guilde" alt="Guilde contre guilde" />
 	</div>
-	<div class="fintext2"></div>
-	
+	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
+		<div class="titre_articles">Le planning de la journee!</div>
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+		</div>
+	</div>
+</div>
+<div class="grid_16 background_blanc">
+	<div class="grid_3 icone_article">
+	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/1358450134_games.png" title="Guilde contre guilde" alt="Guilde contre guilde" />
+	</div>
+	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
+		<div class="titre_articles">Le matin</div>
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+		</div>
+	</div>
+</div>
+<div class="grid_16 background_blanc">
+	<div class="grid_3 icone_article">
+	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/1358450134_games.png" title="Guilde contre guilde" alt="Guilde contre guilde" />
+	</div>
+	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
+		<div class="titre_articles">Le midi</div>
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+		</div>
+	</div>
+</div>
+<div class="grid_16 background_blanc">
+	<div class="grid_3 icone_article">
+	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/icones/1358450134_games.png" title="Guilde contre guilde" alt="Guilde contre guilde" />
+	</div>
+	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
+		<div class="titre_articles">L'après-midi</div>
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+		</div>
+	</div>
 </div>
