@@ -23,16 +23,22 @@
 	- Le but est d'eviter qu'une personne puisse changer de guilde en changeant l'id de la guilde via l'URL.
 */	
 ?>
+
+<div class="grid_16 background_blanc">
+	<div class="grid_3 icone_article">
+	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
+	</div>
+	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
+		<div class="titre_articles">Vous souhaitez éditer votre guilde</div>
+		<div class="tournoi_description">
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
+		</div>
+	</div>
+</div>
+
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
-		<div class="titre_details_articles">Editer votre guilde !</div>
-
-		<div class="text3">
-			<span class="gras">Le système</span> des parties rapides <span class="gras">est simple</span> et vous permet <span class="gras">d'affronter un ou plusieurs joueurs </span>autour d'un jeu. </br><span class="gras">Le gagnant</span> de la partie <span class="gras">remporte alors un nombre de points</span>  (allant de 5 à 50 points en fonction des jeux, voir <a href="#" class="liens" title="système de points" >système de points</a>). </br> Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. </br>
-			 </br>
-			Début des parties rapides : 9h00.</br>
-			Fin des parties rapides : 18h00.</br>
-		</div>
 		<a href="#" /><img  class="img4" src="<?php echo BASE_URL; ?>/img/banniereguilde.png" alt="" title="" /></a>
 		<form class="creaguild" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="GuildeEdit">
 			<input type="hidden" value="<?php echo $aControllerDatas['id']; ?>" name="id" />
@@ -98,9 +104,9 @@
 						//]]>
 					</script>
 				</div>
-			</div>	
+			</div>
 			<div class="row">
-				<button type="submit" class="buttomvalider2"><span class="valid_edit_guildes">Mettre à jour la guilde</span></button>
+				<button type="submit" class="bouton_valider" onclick="return confirm('Voulez vous vraiment modifier la guilde?');" style="margin-left:-290px;">Mettre à jour la guilde</button>
 			</div>
 		</form>
 	</div>
