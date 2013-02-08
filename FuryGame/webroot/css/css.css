@@ -247,7 +247,7 @@ a{
 	display:inline;
 	position:absolute;
 	margin-left:0px;
-	margin-top:0px;
+	margin-top:20px;
 }
 .bouton_modifier a{color:white;}
 .bouton_modifier:hover{background:url(../img/frontoffice/superbutton.png) repeat-x center -1170px transparent}
@@ -270,7 +270,7 @@ a{
 	display:inline;
 	position:absolute;
 	margin-left:200px;
-	margin-top:-36px;
+	margin-top:-45px;
 }
 
 .bouton_retour a{color:white;}
@@ -477,10 +477,9 @@ a{
 	text-align:right;
 }
 .th_edite{
-	
 	border: 1px solid #000;
 	border-radius: 0 0px 0 0px;
-	font-size:15px;
+	font-size:17px;
 	padding-left:50px;
 	padding-right:50px;
 	padding-bottom:25px;
@@ -1897,6 +1896,10 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	margin-top:50px;
 
 }
+.row{
+	margin-top:10px;
+	margin-bottom:10px;
+}
 .rows{
 	margin-bottom:10px;
 	list-style: none;
@@ -1987,7 +1990,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	color:black;
 	text-align:left;
 	margin-top:10px;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	text-align: justify;
 	font: 13px  Helvetica, sans-serif,Georgia, arial ;
 }

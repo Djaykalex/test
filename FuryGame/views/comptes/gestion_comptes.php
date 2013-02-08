@@ -6,7 +6,7 @@
 <?php if(isset($aControllerDatas['pasdeguilde'])) { $pasdeguilde = $aControllerDatas['pasdeguilde'];}?>
 
 <div class="grid_16 background_blanc ">
-	<div class="fondtext">
+	<div class="fondtext" style="padding-bottom:70px;">
 		<div class="titre_gestion_compte">Gestion de votre compte <?php echo $_SESSION['user_pseudo']; ?> !</div>
 		<form class="form_compte" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 		<?php 
@@ -70,9 +70,11 @@
 				</div>
 				<?php } ?>
 				<?php foreach ($aControllerDatas['comptes'] as $k => $v){ ?>
-				<div class="editer_slot">		
-					<a href="<?php echo BASE_URL; ?>/comptes/edit_comptes/<?php echo $v['id']; ?>"><span class="valid_edit">Editer</span></a>
+				<div class="bouton_modifier">
+					<a href="<?php echo BASE_URL; ?>/comptes/edit_comptes/<?php echo $v['id']; ?>">Modifier les membres</a>
 				</div>
+				
+				
 				<?php } ?>
 			<?php } ?>
 		</form>

@@ -23,10 +23,9 @@
 	- Le but est d'eviter qu'une personne puisse changer de guilde en changeant l'id de la guilde via l'URL.
 */	
 ?>
-
 <div class="grid_16 background_blanc">
 	<div class="grid_3 icone_article">
-	<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
+		<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
 	</div>
 	<div class="grid_13 principe_tournoi" style=" width:700px; margin-right:20px">
 		<div class="titre_articles">Vous souhaitez éditer votre guilde</div>
@@ -36,7 +35,6 @@
 		</div>
 	</div>
 </div>
-
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
 		<a href="#" /><img  class="img4" src="<?php echo BASE_URL; ?>/img/banniereguilde.png" alt="" title="" /></a>

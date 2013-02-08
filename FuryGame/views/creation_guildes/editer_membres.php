@@ -47,5 +47,4 @@ if(isset($securite_guildes_membres['guildes_id']) && $securite_guildes_membres['
 		<?php pr($guildemembre_test); ?>
 		<?php pr($guildemembre_test2); ?>
 	</div>
-	<div class="fintext"></div>
 </div>
