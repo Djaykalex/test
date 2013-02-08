@@ -29,26 +29,29 @@
 		
 		<div class="">
 			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
-				<table cellspacing="0" cellpadding="0" border="0" class="table">
+				<table class="tab_guilde_membres" cellspacing="0" cellpadding="0" border="0" class="table">
 					<thead>
 						<tr>
 							<th class="th_edite">Nom</th>
 							<th class="th_edite">prenom</th>
 							<th class="th_edite">Pseudo</th>
+							<th class="th_edite">Guilde</th>
 							<th class="th_edite">Edit</th>
 						</tr> 
 					</thead> 
 					<tbody> 
 						<?php 
-							foreach ($aControllerDatas['isauth'] as $k => $v){ ?>
-								<tr> 
-									<td class="td_edite"><?php echo $v['name']; ?></td>
-									<td class="td_edite"><?php echo $v['prenom']; ?></td>
-									<td class="td_edite"><?php echo $v['pseudo']; ?></td>
-									<td class="td_edite">
-										<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-edit.png" alt="edit" /></a>
-									</td>
-								</tr>
+						
+						foreach ($aControllerDatas['isauth'] as $k => $v){ ?>
+							<tr> 
+								<td class="td_edite"><?php echo $v['name']; ?></td>
+								<td class="td_edite"><?php echo $v['prenom']; ?></td>
+								<td class="td_edite"><?php echo $v['pseudo']; ?></td>
+								<td class="td_edite"><?php echo $v['guildes_id']; ?></td>
+								<td class="td_edite">
+									<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-edit.png" alt="edit" /></a>
+								</td>
+							</tr>
 					  <?php } ?>
 					</tbody> 
 				</table>
@@ -63,5 +66,6 @@
 		die();
 	} 
 ?>
+
 
 

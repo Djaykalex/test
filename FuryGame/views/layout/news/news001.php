@@ -7,31 +7,34 @@
 .couleur {
 	font-size: 14px;
 }
-body,td,th {
-	color:red;
-	background-color:red;
+body,td,th, img {
+	color:;
+	background-color:white;
 }
-
+.logo{
+	margin-left:50px;	
+}
 </style>
 </head>
 
 <body>
-<img src="<?php echo BASE_URL; ?>/img/email/news001/munchkin_bg_a.png" />
+
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td>&nbsp;</td>
-    <td ><img src="<?php echo BASE_URL; ?>/img/email/news001/munchkin_bg_a.png" width="434" height="47" /></td>
+    <td ><img src="" width="334" height="47" /><img src="" width="334" height="47" /><span class="logo">LOGO</span></td>
+    <td >&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td width="434"><img src="http://localhost/FuryGame/webroot/img/email/news001/munchkin_bg_a.png" width="434" height="112" /></td>
-    <td ><img src="http://localhost/FuryGame/webroot/img/email/news001/munchkin_bg_a.png"  /></td>
+    <td width="463"><img src="" width="635" height="112" /></td>
+    <td ><img src=""  /></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td width="434"><img src="http://localhost/site/img/email/news001/003.jpg" width="433" height="69" /></td>
+    <td width="434"><img src="http://localhost/site/img/email/news001/003.jpg" width="718" height="69" /></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
