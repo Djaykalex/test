@@ -35,7 +35,7 @@
 		<?php if(isset($aControllerDatas['errors']['pseudo'])) {  ?> <label for="pseudo" generated="true" class="error"><?php echo $aControllerDatas['errors']['pseudo']; ?></label> <?php } ?>
 	</div>
 </div>
-<!--<div class="row">
+<div class="row">
 	<label>Guildes</label>
 	<div class="rowrights ">
 	
@@ -51,7 +51,7 @@
 	</select>	
 	</div>
 </div>
--->
+
 <div class="row">
 	<label>isauth </br>(1 à 9)</label>
 	<div class="rowright">
