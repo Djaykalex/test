@@ -295,7 +295,7 @@ function editer_membres_guildes($id) {
 	$guilde = findFirst(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'])); // table guildes
 	$logo = findFirst(array('table' => 'logo', 'link' => $link, 'conditions' => 'id ='.$guilde['logo_id'])); // logo de la guilde
 	$banniere = findFirst(array('table' => 'banniere', 'link' => $link, 'conditions' => 'id ='.$guilde['banniere_id'])); // couleur de la banniere de guilde
-	$membres = find(array('table' => 'isauth', 'link' => $link, 'conditions' => 'guildes_id='.$id )); // On affiche les membres qui appartiennent à la guilde de la page
+	$membres = find(array('table' => 'isauth', 'link' => $link, 'conditions' => 'guildes_id='.$id )); // On affiche les membres qui appartiennent à la guilde de la page ciblée
 	$aReturn = array (
 		
 		'guildes' => $guilde, // table guildes
@@ -305,7 +305,9 @@ function editer_membres_guildes($id) {
 		'isauth' => $membres, // On affiche les membres qui appartiennent à la guilde de la page
 		'guildes_connextion' => findFirst(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$id)), // securise l'acces aux autres guildes
 		'isauthguildes' => find(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$id)), // securise l'acces aux autres guildes
-	
+		'guildemembres' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'] )),
+		'son_role' => findList(array('table' => 'role', 'link' => $link)),
+		
 		);
 	return $aReturn;
 }
@@ -345,6 +347,15 @@ function editer_membres($id) {
 	return $aReturn;
 }
 
+
+/**
+* Function ajouter_membres permet d'afficher les membres qui n'ont pas de guilde et ainsi avoir la possibilité de les rajouter.
+* @param 		$id 		INT 			c'est l'identifiant de l'article
+* @param 		$link 		varchar  		c'est le connecteur
+* @param 		$table 		varchar  		variable qui contient le nom de la table
+* @param 		$_POST 		mixed 			ce sont les données postées
+**/
+
 function ajouter_membres(){
 
 	global $link;
@@ -371,6 +382,15 @@ function ajouter_membres(){
 	return $aReturn;
 
 }
+
+
+/**
+* Function ajouter permet d'ajouter les membres ciblés
+* @param 		$id 		INT 			c'est l'identifiant de l'article
+* @param 		$link 		varchar  		c'est le connecteur
+* @param 		$table 		varchar  		variable qui contient le nom de la table
+* @param 		$_POST 		mixed 			ce sont les données postées
+**/
 
 function ajouter($id){
 

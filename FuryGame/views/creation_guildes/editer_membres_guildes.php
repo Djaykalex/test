@@ -14,12 +14,12 @@
 	- Si dans la table "guilde" il existe isauth_id et que isauth_id est different de l'user_id (qui correspond a l'id de la personne 
 	connecter via la table isauth) je le redirige vers une page d'erreur.
 	- Le but est d'eviter qu'une personne puisse changer de guilde en changeant l'id de la guilde via l'URL.
-	-Meme technique à utiliser pour les modifications de comptes !
+	-Meme technique Ã  utiliser pour les modifications de comptes !
 */
 ?>
 <?php if(isset($_SESSION['role']) && $_SESSION['role'] == 1 ){
-/** On securise, si le rôle de la personne qui essaie de se connecter sur la page "gestion_guildes" en changeant l'URL manuellement, n'a pas 
-	un rôle de rang 1, il sera alors redirigé vers l'accueil.
+/** On securise, si le rÃ´le de la personne qui essaie de se connecter sur la page "gestion_guildes" en changeant l'URL manuellement, n'a pas 
+	un rÃ´le de rang 1, il sera alors redirigÃ© vers l'accueil.
 */
 ?>
 <div class="grid_16 background_blanc">
@@ -31,21 +31,24 @@
 					<thead>
 						<tr>
 							<th class="th_edite">Nom</th>
-							<th class="th_edite">prenom</th>
+							<th class="th_edite">Prenom</th>
 							<th class="th_edite">Pseudo</th>
+							<th class="th_edite">RÃ´le</th>
 							<th class="th_edite">Guilde</th>
-							<th class="th_edite">Edit</th>
+							<th class="th_edite">Editer</th>
 						</tr> 
 					</thead> 
 					<tbody> 
 						<?php 
-						
+						if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDatas['guildemembres']; } 
+						if(isset($aControllerDatas['son_role'])) { $son_role = $aControllerDatas['son_role']; } 
 						foreach ($aControllerDatas['isauth'] as $k => $v){ ?>
 							<tr> 
 								<td class="td_edite"><?php echo $v['name']; ?></td>
 								<td class="td_edite"><?php echo $v['prenom']; ?></td>
 								<td class="td_edite"><?php echo $v['pseudo']; ?></td>
-								<td class="td_edite"><?php echo $v['guildes_id']; ?></td>
+								<td class="td_edite"><?php echo $son_role[$v['role_id']]; ?></td>
+								<td class="td_edite"><?php echo $guildemembres[$v['guildes_id']]; ?></td>
 								<td class="td_edite">
 									<a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/thumb-edit.png" alt="edit" /></a>
 								</td>

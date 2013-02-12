@@ -504,19 +504,21 @@ a{
 	border: 1px solid #000;
 	border-radius: 0 0px 0 0px;
 	font-size:17px;
-	padding-left:50px;
-	padding-right:50px;
+	padding-left:40px;
+	padding-right:40px;
 	padding-bottom:25px;
 	padding-top:25px;
+	text-align:center;
 }
 .td_edite{
 	border: 1px solid #000;
 	border-radius: 0 0px 0 0px;
 	font-size:12px;
-	padding-left:50px;
-	padding-right:50px;
+	padding-left:40px;
+	padding-right:40px;
 	padding-bottom:25px;
 	padding-top:25px;
+	text-align:center;
 }
 .tab_guilde_membres{
 	width:80%;

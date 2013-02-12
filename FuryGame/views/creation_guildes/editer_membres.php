@@ -44,7 +44,9 @@ if(isset($securite_guildes_membres['guildes_id']) && $securite_guildes_membres['
 			<div class="bouton_retour"><a href="<?php echo BASE_URL;?>/creation_guildes/gestion_membres_guildes">Revenir en arrière</a></div>
 			
 		</form>
-		<?php pr($guildemembre_test); ?>
-		<?php pr($guildemembre_test2); ?>
+		<?php 
+		// pr($guildemembre_test); 
+		// pr($guildemembre_test2); 
+		?>
 	</div>
 </div>

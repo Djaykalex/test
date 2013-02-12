@@ -14,7 +14,7 @@
 ?>
 <div class="grid_16 background_blanc">
 	<div class="fondtext">
-		<div class="titre_details_articles"> Membres sans guilde</div>
+		<div class="titre_details_articles"> Liste des membres sans guilde</div>
 		<div class="">
 			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
 				<table class="tab_guilde_membres" cellspacing="0" cellpadding="0" border="0" class="table">
@@ -23,7 +23,6 @@
 							<th class="th_edite">Nom</th>
 							<th class="th_edite">prenom</th>
 							<th class="th_edite">Pseudo</th>
-							<th class="th_edite">Guilde</th>
 							<th class="th_edite">Ajouter</th>
 						</tr> 
 					</thead> 
@@ -34,9 +33,8 @@
 								<td class="td_edite"><?php echo $v['name']; ?></td>
 								<td class="td_edite"><?php echo $v['prenom']; ?></td>
 								<td class="td_edite"><?php echo $v['pseudo']; ?></td>
-								<td class="td_edite"><?php echo $v['guildes_id']; ?></td>
 								<td class="td_edite">
-									<a href="<?php echo BASE_URL; ?>/creation_guildes/ajouter/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/add.png" alt="Ajouter" title="ajouter ce membre" style="margin-left:15px;"/></a>
+									<a href="<?php echo BASE_URL; ?>/creation_guildes/ajouter/<?php echo $v['id']; ?>"><img src="<?php echo BASE_URL; ?>/img/backoffice/add.png" alt="Ajouter" title="ajouter ce membre"/></a>
 								</td>
 							</tr>
 					  <?php } ?>
