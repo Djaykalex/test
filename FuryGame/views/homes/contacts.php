@@ -41,7 +41,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<button type="submit" class="buttomvalider"><span class="validation">Valider</span></button>
+				<button type="submit" class="bouton_valider">Valider</button>
 			</div>
 		</form>
 		<img class="contact_logo" src="<?php echo BASE_URL;?>/img/logo-fury-game.png" title="logo fury-game" alt="logo fury-game" />

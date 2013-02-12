@@ -1,5 +1,3 @@
-
-
 <?php 
 	if(isset($aControllerDatas['guildes'])) { $guildes = $aControllerDatas['guildes']; } // table guildes
 	if(isset($aControllerDatas['guildes_connextion'])) { $guildes_connextion = $aControllerDatas['guildes_connextion']; } // Evite de se connecter sur une autre guilde
@@ -16,7 +14,7 @@
 	<div class="fondtext">
 		<div class="titre_details_articles"> Liste des membres sans guilde</div>
 		<div class="">
-			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
+			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit" style="margin-bottom:20px;">
 				<table class="tab_guilde_membres" cellspacing="0" cellpadding="0" border="0" class="table">
 					<thead>
 						<tr>

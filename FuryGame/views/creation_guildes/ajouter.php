@@ -1,9 +1,14 @@
 <?php
 if(isset($aControllerDatas['guildemembre_test'])) { $guildemembre_test = $aControllerDatas['guildemembre_test'];} //affiche la guilde du membre
-if(isset($aControllerDatas['guildemembre'])) { $guildemembre = $aControllerDatas['guildemembre']; } 
-if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDatas['guildemembres']; } 
-
+if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDatas['guildemembres']; } // guilde de l'utilisateur ayant un rôle de Guild Master
+// if(isset($aControllerDatas['guildemembre'])) { $guildemembre = $aControllerDatas['guildemembre']; } 
 ?>
+<?php if(isset($_SESSION['role']) && $_SESSION['role'] == 1 ){
+/** On securise, si le rôle de la personne qui essaie de se connecter sur la page "gestion_guildes" en changeant l'URL manuellement, n'a pas 
+	un rôle de rang 1, il sera alors redirigé vers l'accueil.
+*/
+?>
+
 <div class="grid_16 background_blanc">
 	<div class="grid_3 icone_article">
 		<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
@@ -40,3 +45,9 @@ if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDat
 		?>
 	</div>
 </div>
+<?php 
+} else {
+		header("Location: ".BASE_URL."");
+		die();
+	} 
+?>

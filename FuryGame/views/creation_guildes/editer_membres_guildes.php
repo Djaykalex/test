@@ -26,7 +26,7 @@
 	<div class="fondtext">
 		<div class="titre_details_articles"> Membres de la guilde <?php echo $guildes['name']; ?></div>
 		<div class="">
-			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit">
+			<form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="ArticleEdit" style="margin-bottom:20px;">
 				<table class="tab_guilde_membres" cellspacing="0" cellpadding="0" border="0" class="table">
 					<thead>
 						<tr>
@@ -56,7 +56,6 @@
 					  <?php } ?>
 					</tbody> 
 				</table>
-				<div class="editer_membres_guildes"></div>
 			</form>
 		</div>
 	</div>

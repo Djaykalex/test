@@ -84,9 +84,8 @@
 		</div>
 		<div>ATTENTION !! Pour que votre changement de guilde s'effectue correctement vous devrez vous deconnecter et vous reconnecter</div>
 		<?php } ?> 
-		
-		<div class="rowstyle">
-			<button type="submit" class="buttomvalider"><span class="validation">Modifier</span></button>
+		<div class="row">
+			<button type="submit" class="bouton_valider" onclick="return confirm('Voulez vous vraiment modifier ce membre?');">Modifier votre compte </button>
 		</div>
 	</form>
 	<img class="modif_compte_logo" src="<?php echo BASE_URL;?>/img/logo-fury-game.png" title="logo fury-game" alt="logo fury-game" />

@@ -305,8 +305,8 @@ function editer_membres_guildes($id) {
 		'isauth' => $membres, // On affiche les membres qui appartiennent à la guilde de la page
 		'guildes_connextion' => findFirst(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$id)), // securise l'acces aux autres guildes
 		'isauthguildes' => find(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$id)), // securise l'acces aux autres guildes
-		'guildemembres' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'] )),
-		'son_role' => findList(array('table' => 'role', 'link' => $link)),
+		'guildemembres' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'] )), // Affiche le nom de la guilde 
+		'son_role' => findList(array('table' => 'role', 'link' => $link)), // rôle du membre
 		
 		);
 	return $aReturn;
@@ -410,12 +410,11 @@ function ajouter($id){
 		'securite_guildes_membres' => findFirst(array('table' => 'isauth', 'link' => $link, 'conditions' => 'id='.$id)), // securise l'acces aux autres guildes
 		'GM_guilde' => findFirst(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'])), // securise l'acces aux autres guildes
 		'id' => $id,
-		'rolemembre' => findList(array('table' => 'role', 'link' => $link)),
-		'guildemembre' => $guilde_membres,
-		'guildemembre_test' => findList(array('table' => 'isauth', 'link' => $link, 'conditions' => 'id='.$id )), // Guilde du membre
-		'guildemembre_test2' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$_SESSION['guildes']  )), // Guilde du membre
-		'comptes' => find(array('table' => 'isauth', 'link' => $link)),
-		'guildemembres' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'] )),
+		'rolemembre' => findList(array('table' => 'role', 'link' => $link)), // rôle du membre
+		'guildemembre' => $guilde_membres, // guilde du Guild Master
+		'guildemembre_test' => findList(array('table' => 'isauth', 'link' => $link, 'conditions' => 'id='.$id )), // Guilde du membre version test
+		'guildemembre_test2' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'id='.$_SESSION['guildes']  )), // Guilde du membre version test
+		'guildemembres' => findList(array('table' => 'guildes', 'link' => $link, 'conditions' => 'isauth_id ='.$_SESSION['user_id'] )),// Guilde du Guild Master
 	);
 	return $aReturn;
 

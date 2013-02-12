@@ -39,11 +39,11 @@
 	<label>Guildes</label>
 	<div class="rowrights ">
 	
-	<select name="guilde_id" id="InputGuilde">
+	<select name="guildes_id" id="InputGuilde">
 		<?php 
 		foreach($aControllerDatas['guildemembre'] as $k => $v) {
 
-			if(isset($article['guilde_id']) && $article['guilde_id'] == $k) { $selected = ' selected="selected"'; } else { $selected = ''; }
+			if(isset($article['guildes_id']) && $article['guildes_id'] == $k) { $selected = ' selected="selected"'; } else { $selected = ''; }
 			
 			?><option<?php echo $selected; ?> value="<?php echo $k; ?>"><?php echo $v; ?></option><?php 
 		} 
