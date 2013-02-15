@@ -47,6 +47,50 @@ function contacts() {
 
 
 /**
+* La fonction contacts permet d'envoyer un message, avec les renseignements necessaires (nom, prenom, tel...)
+* On recupere les données posté dans le formulaire de contact, on verifie si les champs de validation ne sont pas vide
+* et qu'ils ne contiennent pas d'erreurs.
+* Si il n'y a pas d'erreurs dans ce cas on sauvegarde les données dans la base de donnée 
+* Et on envoye le mail.
+* @param 	$link 		varchar  	c'est le connecteur
+* @param 	$table 		varchar  	variable qui contient le nom de la table
+* @param 	$errors 	varchar  	variable qui vérifie si les données postées sont bonnes.
+* @param 	$_POST 		mixed 		ce sont les données posté
+* @param 	$validate 	varchar 	variable qui verifie grace aux fonctions dans le fichier validation si les champs postés sont corrects.
+**/
+
+function mailings() {
+	
+	global $link, $table;
+	$errors = array();
+	if(isset($_POST) && !empty($_POST)) {
+		
+		global $validate;
+		
+		if(!empty($validate)) { $errors = validates($validate, $_POST);	}
+		if (empty($errors)) {
+			sendmail(
+					array (
+					'subject' => 'Ma premiÃ¨re newsletter',
+					'from' => array ("postmaster@fury-game.fr" => "Festival Fury-Game"),
+					'to' => array ("helldjayk@gmail.com"), //plutot je recup l'adresse mail de la personne ($_POST['email'])
+					//'bcc' => array("djaykmatt@gmail.com"), si je rajoute ca mon mail ne va pas apparaitre lors de lenvoie de mail, ca evite detre spamÃ© par la suite, Mon adresse devient invisible 
+					'layout' => 'email',
+					'view' => 'mailing',
+					'messagesend' => $_POST
+					)
+				);
+			header("Location: ".BASE_URL."/homes/confirmation");
+			die();
+		}
+	}
+	return array(
+		'errors' => $errors
+	);
+}
+
+
+/**
 * La fonction index va permettre d'afficher une liste d'articles ou un article.
 * @param 	$id 		INT 		c'est l'identifiant de l'article
 * @param 	$link 		varchar  	c'est le connecteur
