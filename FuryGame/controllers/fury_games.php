@@ -232,7 +232,7 @@ function details($id) {
 	}
 	// $paginationCommentaires = paginationCommentaires(array('table' => 'commentaires', 'link' => $link, 'messagesParPage' => '20', 'premierepage'=> '1', 'test' => 1, 'conditions' => 'online = 1 AND article_id ='.$id ));
 	
-	$paginationCommentaires = find(array('table' => 'commentaires', 'link' => $link, 'conditions' => 'online = 1 AND article_id ='.$id.' ORDER BY id DESC'));
+	$paginationCommentaires = find(array('table' => 'commentaires', 'link' => $link, 'conditions' => 'online = 1 AND article_id ='.$id.' ORDER BY id ASC'));
 	
 	$aReturn = array(
 		'article' => findFirst(array('table' => 'articles', 'link' => $link, 'conditions' => 'id='.$id)),
