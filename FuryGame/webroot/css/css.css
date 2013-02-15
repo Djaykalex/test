@@ -820,6 +820,9 @@ a{
 	right:0;
 	color:#333;
 }
+.haut_article{
+	margin-bottom:50px;
+}
 /***************************************************
 			icones news, pages homes et le tournoi
 ***************************************************/
@@ -876,6 +879,7 @@ a{
 	float:left;
 	margin-right:20px;
 	margin-bottom:10px;
+	margin-top:8px;
 }
 /***************************************************
 		Fin icones news, pages homes et le tournoi
@@ -1196,6 +1200,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	float:left;
 	font-size:15px;
 	margin-top:5px;
+	width:31px;
 }
 .joueurs_p{
 	float:left;
@@ -1834,7 +1839,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 	width:800px;
 	text-align: justify;
 	padding-left:50px;
-	font: 17px  Helvetica, sans-serif,Georgia, arial ;
+	font: 13px  Helvetica, sans-serif,Georgia, arial ;
 	
 	
 }
@@ -2040,11 +2045,13 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 .typearticle{
 	margin-left:auto;
 	margin-right:auto;
-	text-align:center;
+	text-align:left;
 	width:800px;
-	font: 20px  Helvetica, sans-serif,Georgia, arial ;
+	font: 15px  Helvetica, sans-serif,Georgia, arial ;
 	font-style:italic;
-	
+}
+.typearticle span{
+	color:#ea1515;
 }
 .membres{
 	font-style:italic;

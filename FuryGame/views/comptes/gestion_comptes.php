@@ -73,11 +73,10 @@
 				<div class="bouton_modifier">
 					<a href="<?php echo BASE_URL; ?>/comptes/edit_comptes/<?php echo $v['id']; ?>">Modifier mon compte</a>
 				</div>
-				
-				
 				<?php } ?>
 			<?php } ?>
 		</form>
 	</div>
+	<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 </div>
 
