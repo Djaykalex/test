@@ -12,9 +12,6 @@
 			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
 			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
 		</div>
-		<div class="tournoi_description">
-			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
-			Le système des parties rapides est simple et vous permet d'affronter un ou plusieurs joueurs autour d'un jeu.Le gagnant de la partie remporte alors un nombre de points (allant de 5 à 50 points en fonction des jeux, voir système de points.Après avoir fini, il vous est libre de recommencer une autre partie du même jeu ou d'en choisir un autre. 
-		</div>
 	</div>
+	<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 </div>

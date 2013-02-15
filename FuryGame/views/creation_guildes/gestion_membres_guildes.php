@@ -36,7 +36,7 @@
 				</div>
 				<div class="description3">
 					<label class="titre_guilde">Liste des membres : </label>
-					<div class="text_gestion_guildes"><?php echo 'Guilde Master : '.$name_guilde_master['name']; ?></div>
+					<div class="text_gestion_guildes"><span>Guilde Master :  </span><?php echo $name_guilde_master['name']; ?></div>
 					<div class="text_gestion_guildes">Membre(s):</br><?php foreach ($membre_guilde as $k => $v) { echo ' - '.$v."<br />"; } ?></div>
 				</div>
 				<div class="bouton_modifier"><a href="<?php echo BASE_URL; ?>/creation_guildes/editer_membres_guildes/<?php echo $guildes['id']; ?>">Modifier les membres</a></div>

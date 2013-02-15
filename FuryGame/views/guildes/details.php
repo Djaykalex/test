@@ -44,8 +44,8 @@
 					<label class="titre_guilde">Liste des membres : </label>
 					<div class="text_gestion_guildes"><span>Guilde master :  </span><?php echo $isauth[$guildes['isauth_id']]; ?></div>
 					<!--<div class="text_gestion_guildes"><?php foreach ($membres as $k => $v) { echo $v."<br />"; } ?></div>-->
-					<div class="text_gestion_guildes"><span>Membres : </span></div>
-					<div class="text_gestion_guildes"><?php foreach ($guilde as $k => $v) { ?> - <?php echo $v."<br />"; } ?></div>
+					<div class="text_gestion_guildes">Membre(s):</br><?php foreach ($guilde as $k => $v) { echo ' - '.$v."<br />"; } ?></div>
+					
 				</div>
 			</div>
 		</form>

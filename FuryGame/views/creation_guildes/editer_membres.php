@@ -42,11 +42,11 @@ if(isset($securite_guildes_membres['guildes_id']) && $securite_guildes_membres['
 				<button type="submit" class="bouton_valider" onclick="return confirm('Voulez vous vraiment supprimer ce membre?');">Supprimer de la guilde</button>
 			</div>
 			<div class="bouton_retour"><a href="<?php echo BASE_URL;?>/creation_guildes/gestion_membres_guildes">Revenir en arrière</a></div>
-			
 		</form>
 		<?php 
 		// pr($guildemembre_test); 
 		// pr($guildemembre_test2); 
 		?>
 	</div>
+	<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 </div>

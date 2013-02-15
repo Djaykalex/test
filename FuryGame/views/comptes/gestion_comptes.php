@@ -71,7 +71,7 @@
 				<?php } ?>
 				<?php foreach ($aControllerDatas['comptes'] as $k => $v){ ?>
 				<div class="bouton_modifier">
-					<a href="<?php echo BASE_URL; ?>/comptes/edit_comptes/<?php echo $v['id']; ?>">Modifier les membres</a>
+					<a href="<?php echo BASE_URL; ?>/comptes/edit_comptes/<?php echo $v['id']; ?>">Modifier mon compte</a>
 				</div>
 				
 				

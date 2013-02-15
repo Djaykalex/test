@@ -1608,7 +1608,7 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 .creaguild{
 	margin-left:300px;
 	margin-top:-300px;
-	height:1000px;
+	height:800px;
 }
 .creaguilde{
 	width:300px;
@@ -2084,8 +2084,9 @@ le soustitre est utilisé dans les parties rapides, guildes vs guildes ...
 							
 ************************************************************************************/
 .footer_all_partenaires{
-	margin-left:30px;
+	margin-left:40px;
 	margin-top:20px;
+	margin-bottom:50px;
 }
 #footer{
 	background:url(../img/pied1.png) repeat-x center top ;

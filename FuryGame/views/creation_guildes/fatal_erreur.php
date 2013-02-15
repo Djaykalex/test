@@ -10,4 +10,5 @@
 			<a class="menus" href="<?php echo BASE_URL; ?>/guildes/list_guildes" title="lien" />Par içi petit malin !!</a>
 		</div>
 	</div>
+	<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 </div>

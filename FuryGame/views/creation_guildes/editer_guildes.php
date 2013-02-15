@@ -107,5 +107,6 @@
 				<button type="submit" class="bouton_valider" onclick="return confirm('Voulez vous vraiment modifier la guilde?');" style="margin-left:-290px;">Mettre à jour la guilde</button>
 			</div>
 		</form>
+		<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 	</div>
 </div>

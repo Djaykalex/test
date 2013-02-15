@@ -8,7 +8,6 @@ if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDat
 	un rôle de rang 1, il sera alors redirigé vers l'accueil.
 */
 ?>
-
 <div class="grid_16 background_blanc">
 	<div class="grid_3 icone_article">
 		<img class="tournoi_soustitre_icone" src="<?php echo BASE_URL;?>/img/petit-logo-fury-game.png" title="Festival Fury-Game" alt="Festival Fury-Game" />
@@ -30,12 +29,10 @@ if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDat
 					</select>	
 				</div>
 			</div>
-			
 			<div class="row">
 				<button type="submit" class="bouton_valider" onclick="return confirm('Voulez vous vraiment ajouter ce membre?');">Ajouter à la guilde </button>
 			</div>
 			<div class="bouton_retour"><a href="<?php echo BASE_URL;?>/creation_guildes/gestion_membres_guildes">Revenir en arrière</a></div>
-			
 		</form>
 		<?php 
 			// pr($guildemembre_test); 
@@ -44,6 +41,7 @@ if(isset($aControllerDatas['guildemembres'])) { $guildemembres = $aControllerDat
 			// pr($guildemembres); 
 		?>
 	</div>
+	<img class="footer_all_partenaires" src="<?php echo BASE_URL;?>/img/icones/footer_all_partenaires.png" title="Partenaires du festival fury-game" alt="partenaires du festival fury-game" />
 </div>
 <?php 
 } else {
